@@ -99032,7 +99032,7 @@ s=l!=null&&l.b.length!==0?4:5
 break
 case 4:o=l.b
 j=B.b.ga1(o)
-s=j.a!==m?6:7
+s=j.a!==m||j.b!=n.b||j.c!=n.d||j.f!=n.e?6:7
 break
 case 6:i=k.$0()
 p.f.n(0,a,i)
@@ -99043,10 +99043,8 @@ s=1
 break
 case 7:j.b=n.b
 j.c=n.d
-h=n.e
-g=h==null
-j.f=g?j.f:h
-for(g=!g,f=1;f<o.length;++f){e=o[f]
+if(j.f==null)j.f=n.e
+for(h=n.e,g=h!=null,f=1;f<o.length;++f){e=o[f]
 d=e.f
 if(d!=null&&g&&Math.abs(d-h)<1e-9)e.f=null}p.r_(l)
 p.f.n(0,a,l)
@@ -99074,8 +99072,8 @@ n=r.b
 q.b=n==null?null:n*(1+p)
 n=r.c
 q.c=n==null?null:n*(1+o)
-if(q.f==null){n=r.f
-q.f=n==null?null:n*(1+o)}}},
+n=r.f
+q.f=n==null?null:n*(1+o)}},
 Nl(a,b,c,d){var s,r,q,p=this.f.i(0,c)
 if(p==null)return
 s=p.b
