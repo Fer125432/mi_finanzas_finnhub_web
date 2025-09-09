@@ -99336,15 +99336,13 @@ s=n.$ti.h("bq<2>")
 o=A.u(new A.bq(n,s),s.h("p.E"))
 B.b.cW(o,new A.abH())
 return new A.rh(a.a,o,a.c)},
-Pa(a){var s,r,q,p,o,n=null,m=a.Q,l=m<0?-m:m,k=a.z,j=k-l
-l=a.as
-s=a.c
-if(s!=null&&a.b!==0){r=a.b
-q=(r-s)/r}else q=n
-r=a.b
-p=r!==0?a.d/r:n
-o=l>0?j/l:n
-return A.Up(m,a.y,k,s,a.e,a.w,j,o,q,a.x,a.at*l,a.d,p,B.hN,r,l,n,n,a.f,a.r,a.a)},
+Pa(a){var s,r,q,p,o=null,n=a.Q,m=n<0?-n:n,l=a.z,k=l-m,j=a.as*1e6,i=a.c
+if(i!=null&&a.b!==0){s=a.b
+r=(s-i)/s}else r=o
+s=a.b
+q=s!==0?a.d/s:o
+p=j>0?k/j:o
+return A.Up(n,a.y,l,i,a.e,a.w,k,p,r,a.x,a.at*j,a.d,q,B.hN,s,j,o,o,a.f,a.r,a.a)},
 gaA6(){var s,r,q=this.y
 if(q==null)s=null
 else{q=q.b
