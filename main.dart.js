@@ -104691,7 +104691,8 @@ h=a5.a
 if(h!=null&&k!=null&&k>0){c=A.P(a7).h("n<1,l>")
 a3=A.u(new A.n(a7,new A.aHK(),c),c.h("W.E"))
 a4=A.aLd(o.a.e,a3)
-if(a4!=null&&a4>0)a5.e=h/k/(a4*100)}o.R(new A.aHL(a5,o))
+if(a4!=null&&a4>0)a5.e=h/k/(a4*100)
+else a5.e=null}o.R(new A.aHL(a5,o))
 a5=a5.d
 s=a5!=null?16:17
 break
@@ -104762,7 +104763,7 @@ $1(a){return B.a9.jy(a,null)},
 $S:57}
 A.aHP.prototype={
 $0(){var s=this.a.f
-s.toString
+if(s==null)return"\u2014"
 if(s<1)return"Infravalorado"
 if(s<=1.5)return"Neutro"
 return"Sobrevalorado"},
