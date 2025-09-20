@@ -98267,10 +98267,10 @@ A.tB.prototype={
 ac(){return new A.Jb(A.b([],t.N7),A.aE(t.N))}}
 A.Jb.prototype={
 anm(a,b,c){var s,r=!a
-if(r&&b<8)return"Excluida"
-if(r&&b>=8)return"Apuesta"
-if(b>=10)s="Core"
-else s=b>=8?"Interesante":"Observaci\xf3n"
+if(r&&b<20)return"Excluida"
+if(r&&b>=20)return"Apuesta"
+if(b>=25)s="Core"
+else s=b>=20?"Interesante":"Observaci\xf3n"
 return c?s+" \u26a0\ufe0f":s},
 anl(a){if(B.d.bQ(a,"Excluida"))return B.bX
 if(B.d.bQ(a,"Apuesta"))return B.eL
@@ -98501,32 +98501,13 @@ J(a){var s,r=this,q=null,p=r.as
 p===$&&A.a()
 s=t.p
 return A.aUO(new A.BS(3,A.px(A.qQ(A.b([A.e6(q,q,q,B.qL,q,q,new A.aDV(r,a),q,q,q,"Datos manuales")],s),B.Ye,q,B.a3h),q,new A.at(B.R,new A.Gf(A.b([r.aaU(a),r.aaS(a),B.Uz],s),q),q),new A.d0(new A.aDW(r,a),q)),q),p,t.R)},
-aaU(a){var s,r,q,p,o,n,m,l=this,k=null,j=A.my(k,k,B.pB,k,k,k,0,k,k,B.iZ,k,k,B.dF,k,new A.cQ(A.eb(20),B.r),k,k,k,k,k),i=l.ax
-i===$&&A.a()
-j=A.w3(!1,A.a1(i,k,k,k,k,k,k,k,k),k,k,k,k,k,k,new A.aAb(l,a),k,j)
-i=l.Q
-s=l.d
-if(s>=4)s=2
-else s=s===3?1:0
-r=l.e
-if(r>=4)r=2
-else r=r===3?1:0
-q=l.f
-if(q>=4)q=2
-else q=q===3?1:0
-p=l.r
-if(p>=4)p=2
-else p=p===3?1:0
-o=l.w
-if(o>=4)o=2
-else o=o===3?1:0
-n=l.x
-if(n>=4)n=2
-else n=n===3?1:0
-m=l.anm(i,s+r+q+p+o+n,l.y)
+aaU(a){var s,r,q=this,p=null,o=A.my(p,p,B.pB,p,p,p,0,p,p,B.iZ,p,p,B.dF,p,new A.cQ(A.eb(20),B.r),p,p,p,p,p),n=q.ax
+n===$&&A.a()
+o=A.w3(!1,A.a1(n,p,p,p,p,p,p,p,p),p,p,p,p,p,p,new A.aAb(q,a),p,o)
+s=q.anm(q.Q,q.d+q.e+q.f+q.r+q.w+q.x,q.y)
 n=t.p
-o=t.R
-return A.br(A.b([new A.at(B.q7,A.bO(A.b([B.a3Y,B.cz,j,new A.d0(new A.aAc(l),k),new A.d0(new A.aAd(l),k),B.cj,new A.NN(A.a1(m,k,k,k,k,B.ZC,k,k,k),l.anl(m),k),B.hv,A.e6(k,k,k,B.LR,k,k,new A.aAe(l),k,k,k,"Recargar desde red (ignorar cach\xe9)")],n),B.q,B.k,B.t,0,k),k),new A.at(B.Kx,A.Oa(new A.aAf(),o),k),A.cO(A.Oa(new A.aAg(l),o),1)],n),B.q,k,B.k,B.t)},
+r=t.R
+return A.br(A.b([new A.at(B.q7,A.bO(A.b([B.a3Y,B.cz,o,new A.d0(new A.aAc(q),p),new A.d0(new A.aAd(q),p),B.cj,new A.NN(A.a1(s,p,p,p,p,B.ZC,p,p,p),q.anl(s),p),B.hv,A.e6(p,p,p,B.LR,p,p,new A.aAe(q),p,p,p,"Recargar desde red (ignorar cach\xe9)")],n),B.q,B.k,B.t,0,p),p),new A.at(B.Kx,A.Oa(new A.aAf(),r),p),A.cO(A.Oa(new A.aAg(q),r),1)],n),B.q,p,B.k,B.t)},
 abM(){var s,r=this.fr
 if(r.a===0)return B.a57
 s=A.n(r).h("kc<1,rY>")
@@ -99310,35 +99291,14 @@ A.aCH.prototype={
 $1(a){this.a.$1(a)},
 $S:81}
 A.aCD.prototype={
-$2(a,a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=this,d=null,c=e.a,b=c.a
-if(b>=4)b=2
-else b=b===3?1:0
-s=c.b
-if(s>=4)s=2
-else s=s===3?1:0
-r=c.c
-if(r>=4)r=2
-else r=r===3?1:0
-q=c.d
-if(q>=4)q=2
-else q=q===3?1:0
-p=c.e
-if(p>=4)p=2
-else p=p===3?1:0
-o=c.f
-if(o>=4)o=2
-else o=o===3?1:0
-n=A.bK(a,d,t.w).w
-m=A.a1("Sector (editable)",d,d,d,d,B.b1,d,d,d)
-l=c.r
-k=l==="\u2014"?"":l
-if(l.length===0)l="\u2014"
-j=e.b
-i=j.y?"S\xed":"No"
-h=e.c
-g=t.p
-f=e.d
-return new A.at(new A.aa(16,8,16,16+n.f.d),A.br(A.b([B.a2W,B.a8,new A.bX(B.bp,d,d,m,d),B.dg,new A.AX(new A.aCr(c,a0),new A.aCs(c,a0),new A.aCt(),new A.aCv(),new A.be(k,B.S,B.M),d,t.dq),B.a8,A.bO(A.b([B.LY,B.cj,A.cO(A.a1("Sector actual: "+l+"\nCartera ya lo cubre: "+i,d,d,d,d,B.a0f,d,d,d),1),A.aS1(B.M2,B.a3Z,new A.aCw(c,j,h),d,d)],g),B.q,B.k,B.t,0,d),B.JH,f.$5$ayuda$options("Mercado y TAM",c.a,new A.aCx(c,a0),"Tama\xf1o de mercado y crecimiento (CAGR).",e.e),f.$5$ayuda$options("Motores de crecimiento",c.b,new A.aCy(c,a0),"Pipeline, nuevos productos, pricing, expansi\xf3n.",e.f),f.$5$ayuda$options("Moat / Ventaja competitiva",c.c,new A.aCz(c,a0),"Red, switching costs, marca, regulatorio.",e.r),f.$5$ayuda$options("Finanzas y reinversi\xf3n",c.d,new A.aCA(c,a0),"M\xe1rgenes, ROE/ROIC, deuda, caja neta.",e.w),f.$5$ayuda$options("Riesgos (incl. ciclicidad)",c.e,new A.aCB(c,a0),"Concentraci\xf3n, regulaci\xf3n, ciclos, disrupci\xf3n.",e.x),f.$5$ayuda$options("Penetraci\xf3n de mercado",c.f,new A.aCC(c,a0),"Cuota actual vs potencial (Market Cap/Ingresos vs TAM).",e.y),B.ap,new A.bX(B.bp,d,d,A.a1("Puntuaci\xf3n cualitativa: "+(b+s+r+q+p+o)+"/30",d,d,d,d,B.b1,d,d,d),d),B.Xp,A.bO(A.b([A.cO(A.ru(!1,B.cA,B.u,d,d,d,d,d,new A.aCu(c,j,h),d,d),1)],g),B.q,B.k,B.t,0,d)],g),B.q,d,B.k,B.a7),d)},
+$2(a,a0){var s,r,q,p,o,n=this,m=null,l=n.a,k=l.a,j=l.b,i=l.c,h=l.d,g=l.e,f=l.f,e=A.bK(a,m,t.w).w,d=A.a1("Sector (editable)",m,m,m,m,B.b1,m,m,m),c=l.r,b=c==="\u2014"?"":c
+if(c.length===0)c="\u2014"
+s=n.b
+r=s.y?"S\xed":"No"
+q=n.c
+p=t.p
+o=n.d
+return new A.at(new A.aa(16,8,16,16+e.f.d),A.br(A.b([B.a2W,B.a8,new A.bX(B.bp,m,m,d,m),B.dg,new A.AX(new A.aCr(l,a0),new A.aCs(l,a0),new A.aCt(),new A.aCv(),new A.be(b,B.S,B.M),m,t.dq),B.a8,A.bO(A.b([B.LY,B.cj,A.cO(A.a1("Sector actual: "+c+"\nCartera ya lo cubre: "+r,m,m,m,m,B.a0f,m,m,m),1),A.aS1(B.M2,B.a3Z,new A.aCw(l,s,q),m,m)],p),B.q,B.k,B.t,0,m),B.JH,o.$5$ayuda$options("Mercado y TAM",l.a,new A.aCx(l,a0),"Tama\xf1o de mercado y crecimiento (CAGR).",n.e),o.$5$ayuda$options("Motores de crecimiento",l.b,new A.aCy(l,a0),"Pipeline, nuevos productos, pricing, expansi\xf3n.",n.f),o.$5$ayuda$options("Moat / Ventaja competitiva",l.c,new A.aCz(l,a0),"Red, switching costs, marca, regulatorio.",n.r),o.$5$ayuda$options("Finanzas y reinversi\xf3n",l.d,new A.aCA(l,a0),"M\xe1rgenes, ROE/ROIC, deuda, caja neta.",n.w),o.$5$ayuda$options("Riesgos (incl. ciclicidad)",l.e,new A.aCB(l,a0),"Concentraci\xf3n, regulaci\xf3n, ciclos, disrupci\xf3n.",n.x),o.$5$ayuda$options("Penetraci\xf3n de mercado",l.f,new A.aCC(l,a0),"Cuota actual vs potencial (Market Cap/Ingresos vs TAM).",n.y),B.ap,new A.bX(B.bp,m,m,A.a1("Puntuaci\xf3n cualitativa: "+(k+j+i+h+g+f)+"/30",m,m,m,m,B.b1,m,m,m),m),B.Xp,A.bO(A.b([A.cO(A.ru(!1,B.cA,B.u,m,m,m,m,m,new A.aCu(l,s,q),m,m),1)],p),B.q,B.k,B.t,0,m)],p),B.q,m,B.k,B.a7),m)},
 $S:597}
 A.aCt.prototype={
 $1(a){var s=B.d.ck(a.a).toLowerCase()
