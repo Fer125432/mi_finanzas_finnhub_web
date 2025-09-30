@@ -103155,7 +103155,7 @@ e=Math.pow(1.12,4)
 d=i*Math.pow(g,4)*25/Math.pow(1.1,4)
 c=(d-i*f*20/e)/2
 b=Math.abs(c)<1e-9?1:new A.aFT(h,d,c).$0()
-a=Math.min(2,Math.max(0.5,1+(m-(k-1))))*Math.min(2,Math.max(0.5,1+(30-l)/15))*Math.min(1.2,Math.max(0.8,1+Math.min(m,0.5)/0.5))*Math.min(2,Math.max(0.5,2*m*100/l))*(1+(j-1)/0.15)*b
+a=Math.min(2,Math.max(0.5,1+(m-(k-1))))*Math.min(2,Math.max(0.5,1+(30-l)/15))*Math.min(1.5,Math.max(0.8,1+m/0.5*0.5))*Math.min(2,Math.max(0.5,2*m*100/l))*(1+(j-1)/0.15)*b
 p.m(o,a4,a)
 r+=a}for(a7=this.c,q=0;q<s.length;s.length===p||(0,A.B)(s),++q){o=s[q]
 k=J.af(o)
