@@ -98758,28 +98758,33 @@ s=2
 return A.k(A.My(new A.aDN(q,new A.aDO(A.b([new A.Cw(A.du("[0-9\\-,\\.]",!1),!0,"")],t.VS)),A.bh(new A.cg(c,0,!1)),o,n,m,l,k,j,i,h,g,f,e,d,p,new A.aDM(),a),a,!0,!0,!0,t.z),$async$B4)
 case 2:return A.B(null,r)}})
 return A.C($async$B4,r)},
-an2(){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g=i.Q
-g===$&&A.a()
-s=i.Uq(g).garN()
-g=i.y
-g===$&&A.a()
-g=g.Q
-r=g!=null&&g.b.length!==0?B.b.ga7(g.b):h
+an2(){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e=g.Q
+e===$&&A.a()
+s=g.Uq(e).garN()
+e=g.y
+e===$&&A.a()
+e=e.Q
+r=e!=null&&e.b.length!==0?B.b.ga7(e.b):f
 q=s.i(0,"revenue")
 p=s.i(0,"netIncome")
 o=s.i(0,"eps")
-g=r==null
-n=g?h:r.b
-m=g?h:r.d
-l=g?h:r.e
-g=new A.aBP()
-k=q!=null||p!=null||o!=null?"Revenue: "+A.t(g.$1(q))+" \u2022 Net: "+A.t(g.$1(p))+" \u2022 EPS: "+A.t(g.$1(o)):"Pulsa para introducir datos trimestrales"
-g=t.p
-j=A.b([B.Mo,B.bO,A.cE(A.bj(A.b([A.a_("Trimestrales",h,h,h,h,B.aX,h,h,h),B.XC,A.a_(k,h,h,h,h,h,h,h,h)],g),B.ab,h,B.j,B.p),1)],g)
-if(s.a!==0)j.push(A.bC(A.b([i.I4("Rev",q,n),i.I4("Net",p,m),i.I4("EPS",o,l)],g),B.q,B.j,B.a5,0,h))
-j.push(B.c0)
-j.push(B.Mr)
-return A.oz(A.fx(!1,h,!0,new A.au(B.it,A.bC(j,B.q,B.j,B.p,0,h),h),h,!0,h,h,h,h,h,h,h,h,h,h,h,new A.aBQ(i),h,h,h,h,h,h,h),h,B.it,h)},
+e=r==null
+n=e?f:r.b
+m=e?f:r.d
+l=e?f:r.e
+e=g.Q==="TSM"
+if(e)k=n
+else k=n==null?f:n/1e9
+if(e)j=m
+else j=m==null?f:m/1e9
+e=new A.aBP()
+i=q!=null||p!=null||o!=null?"Revenue: "+A.t(e.$1(q))+" \u2022 Net: "+A.t(e.$1(p))+" \u2022 EPS: "+A.t(e.$1(o)):"Pulsa para introducir datos trimestrales"
+e=t.p
+h=A.b([B.Mo,B.bO,A.cE(A.bj(A.b([A.a_("Trimestrales",f,f,f,f,B.aX,f,f,f),B.XC,A.a_(i,f,f,f,f,f,f,f,f)],e),B.ab,f,B.j,B.p),1)],e)
+if(s.a!==0)h.push(A.bC(A.b([g.I4("Rev",q,k),g.I4("Net",p,j),g.I4("EPS",o,l)],e),B.q,B.j,B.a5,0,f))
+h.push(B.c0)
+h.push(B.Mr)
+return A.oz(A.fx(!1,f,!0,new A.au(B.it,A.bC(h,B.q,B.j,B.p,0,f),f),f,!0,f,f,f,f,f,f,f,f,f,f,f,new A.aBQ(g),f,f,f,f,f,f,f),f,B.it,f)},
 J(a){var s,r=this,q=null,p=r.y
 p===$&&A.a()
 s=t.p
