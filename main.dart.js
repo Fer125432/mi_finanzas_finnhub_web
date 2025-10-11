@@ -99011,7 +99011,7 @@ if(s>=1e6)return B.c.E(a/1e6,2)+"M"
 if(s>=1000)return B.c.E(a/1000,1)+"K"
 return B.c.E(a,2)},
 cT(a){if(a==null)return"\u2014"
-return B.c.E(Math.abs(a)<=2?a*100:a,2)+"%"},
+return B.c.E(a*100,2)+"%"},
 aeu(a,b){var s
 if(B.d.n(b,"%")||B.d.n(b,"CAGR"))return this.cT(a)
 s=Math.abs(a)
