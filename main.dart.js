@@ -99602,7 +99602,9 @@ r=r.Q.b
 q=B.b.e0(r,a)
 r.$flags&2&&A.aN(r)
 r[q]=n}break
-case"PEG":r=f.e.i(0,c.toUpperCase())
+case"PEG":s=a.fr
+if(s!=null&&isFinite(s))break
+r=f.e.i(0,c.toUpperCase())
 p=r==null?e:r.i(0,a.a)
 o=f.f1(c,a.e)
 if(p==null||o==null||o<=0)return e
