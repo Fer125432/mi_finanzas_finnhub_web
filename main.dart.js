@@ -99611,9 +99611,7 @@ r=q.Q.b
 q=B.b.ep(r,a0)
 r.$flags&2&&A.aN(r)
 r[q]=n}break
-case"PEG":r=a0.fr
-if(r!=null&&isFinite(r))return r
-r=b.r
+case"PEG":r=b.r
 h=r.i(0,a2.toUpperCase())
 if(h==null){q=b.z
 q===$&&A.a()
