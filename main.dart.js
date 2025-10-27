@@ -99614,20 +99614,20 @@ case"PEG":r=c.e.i(0,a1.toUpperCase())
 m=r==null?b:r.i(0,a.a)
 if(m==null||m<=0)return b
 h=c.f1(a1,a.e)
+if(h==null||h<=0)return b
 r=c.y
 r===$&&A.a()
-g=B.b.ep(r.Q.b,a)
-f=g>0?c.f1(a1,r.Q.b[g-1].e):b
-if(h==null||h<=0)return b
+q=r.Q
+g=q==null?b:B.b.ep(q.b,a)
+if(g==null)g=-1
+f=g>0&&r.Q.b.length>g-1?c.f1(a1,r.Q.b[g-1].e):b
 e=m/h
-if(f==null||f<=0)return e
-d=c.zV(h,f)
-if(d==null||d<=0)return e
-s=e/(d*100)
+if(f!=null&&f>0){d=c.zV(h,f)
+s=d!=null&&d>0?e/(d*100):e}else s=e
 if(isFinite(s)){n=a.Kp(s)
 r=r.Q.b
 r.$flags&2&&A.aN(r)
-r[g]=n}break
+r[g]=n}return s
 case"Caja":s=a.z
 break
 case"Deuda CP":s=a.Q
