@@ -99610,7 +99610,9 @@ r=q.Q.b
 q=B.b.ep(r,a)
 r.$flags&2&&A.aN(r)
 r[q]=n}break
-case"PEG":r=c.e.i(0,a1.toUpperCase())
+case"PEG":r=a.fr
+if(r!=null&&isFinite(r))return r
+r=c.e.i(0,a1.toUpperCase())
 m=r==null?b:r.i(0,a.a)
 if(m==null||m<=0)return b
 h=c.f1(a1,a.e)
@@ -99624,7 +99626,7 @@ f=g>0&&r.Q.b.length>g-1?c.f1(a1,r.Q.b[g-1].e):b
 e=m/h
 if(f!=null&&f>0){d=c.zV(h,f)
 s=d!=null&&d>0?e/(d*100):e}else s=e
-if(isFinite(s)){n=a.Kp(s)
+if(isFinite(s)&&g>=0){n=a.Kp(s)
 r=r.Q.b
 r.$flags&2&&A.aN(r)
 r[g]=n}return s
