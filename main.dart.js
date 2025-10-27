@@ -99725,27 +99725,28 @@ case"Capex/FCF":s=A.P(o).h("n<1,l?>")
 s=A.q(new A.n(o,new A.aDa(),s),s.h("V.E"))
 return s
 default:return B.Qf}},
-aoQ(a0,a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=null,a=a1.b
-if(a0==="EPS YoY %"){s=A.br(a.length,b,!1,t.u)
-for(r=a.length,q=c.Q,p=0;p<r;++p){q===$&&A.a()
-o=c.f1(q,a[p].e)
-n=c.zV(o,p>0?c.f1(q,a[p-1].e):b)
-s[p]=n==null||!isFinite(n)?b:n*100}return s}if(a0==="PEG"){s=A.br(a.length,b,!1,t.u)
-m=new A.aCL(c,a)
-for(r=c.e,q=a.$flags|0,p=0;p<a.length;++p){l=a[p]
-k=c.Q
+aoQ(a,a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=this,c=null,b=a0.b
+if(a==="EPS YoY %"){s=A.br(b.length,c,!1,t.u)
+for(r=b.length,q=d.Q,p=0;p<r;++p){q===$&&A.a()
+o=d.f1(q,b[p].e)
+n=d.zV(o,p>0?d.f1(q,b[p-1].e):c)
+s[p]=n==null||!isFinite(n)?c:n*100}return s}if(a==="PEG"){s=A.br(b.length,c,!1,t.u)
+m=new A.aCL(d,b)
+for(r=d.e,q=b.$flags|0,p=0;p<b.length;++p){l=b[p]
+k=d.Q
 k===$&&A.a()
 k=r.i(0,k.toUpperCase())
-j=k==null?b:k.i(0,l.a)
+j=k==null?c:k.i(0,l.a)
 i=m.$1(p)
-h=j!=null&&i!=null&&i>0?j/i:b
-g=c.zV(i,p>0?m.$1(p-1):b)
-f=g==null?b:g*100
-if(h==null||f==null)e=b
-else e=h/(Math.abs(f)<0.000001?0.000001:f)
-if(e!=null&&isFinite(e)){d=l.Kp(e)
-q&2&&A.aN(a)
-a[p]=d}}return s}return b},
+if(j==null||i==null||i<=0)continue
+h=j/i
+g=d.zV(i,p>0?m.$1(p-1):c)
+f=g==null?c:g*100
+e=f!=null&&f>0?h/f:h
+if(isFinite(e)){s[p]=e
+k=l.Kp(e)
+q&2&&A.aN(b)
+b[p]=k}}return s}return c},
 ab8(a8,a9){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4=this,a5=null,a6={},a7=a4.dx
 if(a7.a===0)return B.GN
 s=a8.b
