@@ -99460,8 +99460,8 @@ B.b.P(s,new A.n(n,new A.aBN(r),A.P(n).h("n<1,e>")))
 return A.bg(A.b([p,B.f9,A.bu(s,B.q,B.j,B.o,0,null)],q),B.q,null,B.j,B.o)},
 IW(a,b){var s=A.P(b).h("n<1,aa<f,K<f>>>"),r=A.q(new A.n(b,new A.aF5(a),s),s.h("V.E"))
 return this.AR(!0,this.gBm(),r,a)},
-ny(a,b,a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=this,c=null
-switch(b){case"Revenue":s=a.b
+ny(a,a0,a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=null
+switch(a0){case"Revenue":s=a.b
 break
 case"COGS":s=a.c
 break
@@ -99480,7 +99480,7 @@ break
 case"FCF margin %":r=a.ch
 if(r!=null){q=a.b
 q=q==null||q===0}else q=!0
-if(q)return c
+if(q)return b
 q=a.b
 q.toString
 s=r/q
@@ -99488,7 +99488,7 @@ break
 case"ROE":r=a.d
 if(r!=null){q=a.y
 q=q==null||q===0}else q=!0
-if(q)return c
+if(q)return b
 q=a.y
 q.toString
 s=r/q
@@ -99496,7 +99496,7 @@ break
 case"ROA":r=a.d
 if(r!=null){q=a.r
 q=q==null||q===0}else q=!0
-if(q)return c
+if(q)return b
 q=a.r
 q.toString
 s=r/q
@@ -99518,7 +99518,7 @@ break
 case"Debt/Equity (LP)":r=a.x
 if(r!=null){q=a.y
 q=q==null||q===0}else q=!0
-if(q)return c
+if(q)return b
 q=a.y
 q.toString
 s=r/q
@@ -99526,17 +99526,17 @@ break
 case"Assets/Liabilities":r=a.r
 if(r!=null){q=a.w
 q=q==null||q===0}else q=!0
-if(q)return c
+if(q)return b
 q=a.w
 q.toString
 s=r/q
 break
 case"Net Debt/FCF":if(a.gj6()!=null){r=a.ch
 r=r==null||r===0}else r=!0
-if(r)return c
+if(r)return b
 r=a.ch
 r.toString
-if(r<=0)return c
+if(r<=0)return b
 q=a.gj6()
 q.toString
 s=q/r
@@ -99544,88 +99544,96 @@ break
 case"Capex/FCF":r=a.at
 if(r!=null){q=a.ch
 q=q==null||q===0}else q=!0
-if(q)return c
+if(q)return b
 q=a.ch
 q.toString
 s=Math.abs(r)/Math.abs(q)
 break
 case"Market Cap":s=a.cy
 break
-case"Precio":r=d.e.i(0,a0.toUpperCase())
-s=r==null?c:r.i(0,a.a)
+case"Precio":r=c.e.i(0,a1.toUpperCase())
+s=r==null?b:r.i(0,a.a)
 break
-case"PER":r=d.e.i(0,a0.toUpperCase())
-p=r==null?c:r.i(0,a.a)
-o=d.f1(a0,a.e)
-if(p==null||o==null||o<=0)return c
+case"PER":r=c.e.i(0,a1.toUpperCase())
+p=r==null?b:r.i(0,a.a)
+o=c.f1(a1,a.e)
+if(p==null||o==null||o<=0)return b
 s=p/o
 if(isFinite(s)){n=a.atB(s)
-r=d.y
+r=c.y
 r===$&&A.a()
 r=r.Q.b
 q=B.b.ep(r,a)
 r.$flags&2&&A.aN(r)
 r[q]=n}break
-case"P/S":r=d.e.i(0,a0.toUpperCase())
-m=r==null?c:r.i(0,a.a)
+case"P/S":r=c.e.i(0,a1.toUpperCase())
+m=r==null?b:r.i(0,a.a)
 r=!0
 if(m!=null)if(a.b!=null){r=a.f
-r=r==null||r===0}if(r)return c
+r=r==null||r===0}if(r)return b
 r=a.b
 r.toString
 q=a.f
 q.toString
 s=m/(r/q)
 if(isFinite(s)){n=a.atD(s)
-r=d.y
+r=c.y
 r===$&&A.a()
 r=r.Q.b
 q=B.b.ep(r,a)
 r.$flags&2&&A.aN(r)
 r[q]=n}break
-case"PSG":r=d.Q
+case"PSG":r=c.Q
 r===$&&A.a()
-r=d.e.i(0,r.toUpperCase())
-m=r==null?c:r.i(0,a.a)
-r=d.y
-r===$&&A.a()
-q=r.Q.b
-l=A.P(q).h("n<1,l?>")
-q=A.q(new A.n(q,new A.aBY(),l),l.h("V.E"))
-l=r.Q.b
-k=A.P(l).h("n<1,m>")
-l=A.q(new A.n(l,new A.aBZ(),k),k.h("V.E"))
-j=A.cO(q,!0,l)
-s=m!=null&&j!=null&&j>0?m/(j*100):c
+r=c.e.i(0,r.toUpperCase())
+m=r==null?b:r.i(0,a.a)
+r=!0
+if(m!=null)if(a.b!=null){r=a.f
+r=r==null||r===0}if(r)return b
+r=a.b
+r.toString
+q=a.f
+q.toString
+l=m/(r/q)
+q=c.y
+q===$&&A.a()
+r=q.Q.b
+k=A.P(r).h("n<1,l?>")
+r=A.q(new A.n(r,new A.aBY(),k),k.h("V.E"))
+k=q.Q.b
+j=A.P(k).h("n<1,m>")
+k=A.q(new A.n(k,new A.aBZ(),j),j.h("V.E"))
+i=A.cO(r,!0,k)
+s=isFinite(l)&&i!=null&&i>0?l/(i*100):b
 if(s!=null&&isFinite(s)){n=a.atE(s)
-r=r.Q.b
+r=q.Q.b
 q=B.b.ep(r,a)
 r.$flags&2&&A.aN(r)
 r[q]=n}break
-case"PEG":r=d.e.i(0,a0.toUpperCase())
-m=r==null?c:r.i(0,a.a)
-if(m==null||m<=0)return c
-i=d.f1(a0,a.e)
-r=d.y
+case"PEG":r=c.e.i(0,a1.toUpperCase())
+m=r==null?b:r.i(0,a.a)
+if(m==null||m<=0)return b
+h=c.f1(a1,a.e)
+r=c.y
 r===$&&A.a()
-h=B.b.ep(r.Q.b,a)
-g=h>0?d.f1(a0,r.Q.b[h-1].e):c
-if(i==null||i<=0)return c
-f=m/i
-if(g==null||g<=0)return f
-e=d.zV(i,g)
-if(e==null||e<=0)return f
-s=f/(e*100)
+g=B.b.ep(r.Q.b,a)
+f=g>0?c.f1(a1,r.Q.b[g-1].e):b
+if(h==null||h<=0)return b
+e=m/h
+if(f==null||f<=0)return e
+d=c.zV(h,f)
+if(d==null||d<=0)return e
+s=e/(d*100)
 if(isFinite(s)){n=a.Kp(s)
 r=r.Q.b
 r.$flags&2&&A.aN(r)
-r[h]=n}break
+r[g]=n}break
 case"Caja":s=a.z
 break
 case"Deuda CP":s=a.Q
 break
-default:s=c}if(s==null)return c
-return B.X3.n(0,b)?d.f1(a0,s):s},
+default:s=b}if(s==null)return b
+return B.X3.n(0,a0)?c.f1(a1,s):s},
 f1(a,b){if(b==null)return null
 if(a==="TSM")return b/32
 return b},
