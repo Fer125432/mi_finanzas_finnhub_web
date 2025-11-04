@@ -99412,18 +99412,18 @@ k=J.bA(k)
 h=g.e.i(0,n)
 h.toString
 J.AF(h,A.bh(i-k,null,!1,p))}}}},
-apK(d8){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8=this,c9=null,d0="\u27a1\ufe0f Estable",d1="\ud83d\udd3c Acelerando",d2="\ud83d\udd3d Desacelerando",d3="\u2197\ufe0f Reacelerando",d4="[A-Za-z\xc1\xc9\xcd\xd3\xda\xe1\xe9\xed\xf3\xfa ]",d5=d8.b,d6=A.P(d5).h("n<1,m>"),d7=A.p(new A.n(d5,new A.aEJ(),d6),d6.h("U.E"))
-d6=c8.as
-d6===$&&A.a()
-s=d6.l6(d5)
-r=new A.aF8(d5)
-q=new A.aF4(c8,d5)
-p=new A.aF6(c8,d5)
+apK(d9){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8=this,c9=null,d0="\u27a1\ufe0f Estable",d1="\ud83d\udd3c Acelerando",d2="\ud83d\udd3d Desacelerando",d3="\u2197\ufe0f Reacelerando",d4="\u27a1\ufe0f",d5="[A-Za-z\xc1\xc9\xcd\xd3\xda\xe1\xe9\xed\xf3\xfa ]",d6=d9.b,d7=A.P(d6).h("n<1,m>"),d8=A.p(new A.n(d6,new A.aEJ(),d7),d7.h("U.E"))
+d7=c8.as
+d7===$&&A.a()
+s=d7.l6(d6)
+r=new A.aF8(d6)
+q=new A.aF4(c8,d6)
+p=new A.aF6(c8,d6)
 o=r.$1(new A.aEK())
 r.$1(new A.aEL())
 r.$1(new A.aEW())
-d6=t.Yw
-n=A.b([],d6)
+d7=t.Yw
+n=A.b([],d7)
 for(m=J.a7(o),l=0;l<m.gA(o);++l){if(l!==0){k=l-1
 k=m.i(o,k)==null||m.i(o,k)===0}else k=!0
 if(k)n.push(c9)
@@ -99456,13 +99456,13 @@ a7=B.f.k(a6.a)
 a4.i(0,"Q1").m(0,a7,a6.b)
 a4.i(0,"Q2").m(0,a7,a6.e)
 a4.i(0,"Q3").m(0,a7,a6.w)
-a4.i(0,"Q4").m(0,a7,a6.z)}c8.aaI(d7,a4)
-if(!c8.e.aJ(0,c8.d))c8.e.m(0,c8.d,A.bh(d7.length,c9,!1,a3))
+a4.i(0,"Q4").m(0,a7,a6.z)}c8.aaI(d8,a4)
+if(!c8.e.aJ(0,c8.d))c8.e.m(0,c8.d,A.bh(d8.length,c9,!1,a3))
 a8=c8.e.i(0,c8.d)
-if(a8==null)a8=A.bh(d7.length,c9,!1,a3)
-a9=A.b([],d6)
-for(d6=J.a7(a8),l=0;l<d6.gA(a8);++l){a0=l>0?d6.i(a8,l-1):c9
-b0=d6.i(a8,l)
+if(a8==null)a8=A.bh(d8.length,c9,!1,a3)
+a9=A.b([],d7)
+for(d7=J.a7(a8),l=0;l<d7.gA(a8);++l){a0=l>0?d7.i(a8,l-1):c9
+b0=d7.i(a8,l)
 if(a0==null||a0===0||b0==null)a9.push(c9)
 else a9.push((b0-a0)/a0)}b1=A.p(new A.cj(a9,m),k)
 b2=b1.length
@@ -99497,18 +99497,20 @@ k=t.Kc
 a3=t.s
 c0=A.b([],a3)
 for(l=0;l<n.length;++l)c0.push(c8.cE(n[l]))
-c1=A.da(d4,!1)
-c0.push(B.d.ck(A.dT(a1,c1,"")))
+if(B.d.n(a1,"\ud83d\udd3c")||B.d.n(a1,"\ud83d\udd3d")||B.d.n(a1,"\u2197\ufe0f")||B.d.n(a1,d4)){c1=A.da(d5,!1)
+c1=B.d.ck(A.dT(a1,c1,""))}else c1=d4
+c0.push(c1)
 c1=c8.d
 c2=A.b([],a3)
-for(l=0;l<d7.length;++l){if(d6.i(a8,l)!=null){c3=d6.i(a8,l)
+for(l=0;l<d8.length;++l){if(d7.i(a8,l)!=null){c3=d7.i(a8,l)
 c3.toString
 c3=B.c.D(c3,1)}else c3="\u2014"
 c2.push(c3)}c2.push("")
-d6=A.b([],a3)
-for(l=0;l<a9.length;++l)d6.push(c8.cE(a9[l]))
-c3=A.da(d4,!1)
-d6.push(B.d.ck(A.dT(b3,c3,"")))
+d7=A.b([],a3)
+for(l=0;l<a9.length;++l)d7.push(c8.cE(a9[l]))
+if(B.d.n(b3,"\ud83d\udd3c")||B.d.n(b3,"\ud83d\udd3d")||B.d.n(b3,"\u2197\ufe0f")||B.d.n(b3,d4)){c3=A.da(d5,!1)
+c3=B.d.ck(A.dT(b3,c3,""))}else c3=d4
+d7.push(c3)
 c3=A.p(q.$1(new A.aEQ()),j)
 c3.push(c8.cE(b8))
 c4=A.p(p.$1(new A.aER()),j)
@@ -99517,12 +99519,12 @@ c5=A.p(q.$1(new A.aES()),j)
 c5.push(c8.cE(b9))
 c6=A.p(p.$1(new A.aET()),j)
 c6.push(c8.cE(c8.zB(b5)))
-c7=A.b([new A.a8("Revenue",m,k),new A.a8("Crec. %",c0,k),new A.a8("Rev QoQ ["+c1+"]",c2,k),new A.a8("Crec. QoQ %",d6,k),new A.a8("COGS",c3,k),new A.a8("Margen bruto %",c4,k),new A.a8("Net income",c5,k),new A.a8("Margen neto %",c6,k)],t.i2)
-d6=c8.d
+c7=A.b([new A.a8("Revenue",m,k),new A.a8("Crec. %",c0,k),new A.a8("Rev QoQ ["+c1+"]",c2,k),new A.a8("Crec. QoQ %",d7,k),new A.a8("COGS",c3,k),new A.a8("Margen bruto %",c4,k),new A.a8("Net income",c5,k),new A.a8("Margen neto %",c6,k)],t.i2)
+d7=c8.d
 m=t.fo
 m=A.p(new A.n(A.b(["Q1","Q2","Q3","Q4"],a3),new A.aEU(),m),m.h("U.E"))
 k=t.p
-return A.bg(A.b([A.bx(A.b([B.a4i,A.w1(c9,c9,c9,!1,m,new A.aEV(c8),c9,c9,B.Cs,d6,j),B.bR,A.aqn(B.Ms,B.a4v,new A.aEX(c8,d7,a8),c9,c9)],k),B.q,B.j,B.o,0,c9),B.c2,c8.AR(!0,c8.gBl(),c7,d7)],k),B.a1,c9,B.j,B.o)},
+return A.bg(A.b([A.bx(A.b([B.a4i,A.w1(c9,c9,c9,!1,m,new A.aEV(c8),c9,c9,B.Cs,d7,j),B.bR,A.aqn(B.Ms,B.a4v,new A.aEX(c8,d8,a8),c9,c9)],k),B.q,B.j,B.o,0,c9),B.c2,c8.AR(!0,c8.gBl(),c7,d8)],k),B.a1,c9,B.j,B.o)},
 apL(a){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=a.b,e=A.P(f),d=e.h("n<1,m>"),c=A.p(new A.n(f,new A.aF9(),d),d.h("U.E"))
 d=g.as
 d===$&&A.a()
