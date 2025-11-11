@@ -108053,7 +108053,7 @@ c[0]=d
 for(m=b1.length,b=1;b<m;++b){a=b1[b].e
 if(a==null)a=0
 l=c[b-1]
-if(l!=null)c[b]=l*(1+a/100)}m=n.$4$getterReal$label$onSubmitReal$trailingCagrPct(new A.aKe(a8),"Revenue",new A.aKf(a8,b2,b0),f)
+if(l!=null)c[b]=l*(1+a)}m=n.$4$getterReal$label$onSubmitReal$trailingCagrPct(new A.aKe(a8),"Revenue",new A.aKf(a8,b2,b0),f)
 l=p.$3$getterPct$label$onSubmitPct(new A.aKg(),"Crec. Revenue %",new A.aKh(a8,b0))
 g=n.$4$getterReal$label$onSubmitReal$trailingCagrPct(new A.aKi(a8),"Net income",new A.aK2(a8,b2,b0),e)
 a0=p.$3$getterPct$label$onSubmitPct(new A.aK3(),"Crec. Net income %",new A.aK4(a8,b2,b0))
