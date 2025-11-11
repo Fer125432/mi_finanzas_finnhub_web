@@ -99511,7 +99511,8 @@ c5=d6.e.i(0,c4)
 if(c5==null)c5=A.b([],e4)
 e4=J.a7(c5)
 c6=e4.gbI(c5)?e4.ga4(c5):d7
-if(a4.aG(0,c4)){e4=a4.i(0,c4)
+e4=a4.aG(0,c4)
+if(e4){e4=a4.i(0,c4)
 e4.toString
 m=A.o(e4).h("bw<1>")
 c7=new A.bw(e4,m)
