@@ -100101,40 +100101,40 @@ case"Capex/FCF":s=A.O(l).i("n<1,l?>")
 s=A.p(new A.n(l,new A.aDw(),s),s.i("U.E"))
 return s
 default:return B.Qm}},
-rI(a2,a3){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0=null,a1=a3.d
-if(a1!=null)for(a1=J.ba(a1);a1.v();)a1.gN(a1)
-s=a3.b
-if(a2==="EPS YoY %"){r=A.bi(s.length,a0,!1,t.t)
-for(a1=s.length,q=a.db,p=0;p<a1;++p){q===$&&A.a()
-o=a.f2(q,s[p].e)
-n=a.A_(o,p>0?a.f2(q,s[p-1].e):a0)
-r[p]=n==null||!isFinite(n)?a0:n*100}return r}if(A.bh6(a2))return a.y
-if(a2==="Crec. RevQ YoY %")return a.z
-if(a2==="Crec. Total YoY %"){m=a.d
+rI(a3,a4){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0=this,a1=null,a2=a4.d
+if(a2!=null)for(a2=J.ba(a2);a2.v();)a2.gN(a2)
+s=a4.b
+if(a3==="EPS YoY %"){r=A.bi(s.length,a1,!1,t.t)
+for(a2=s.length,q=a0.db,p=0;p<a2;++p){q===$&&A.a()
+o=a0.f2(q,s[p].e)
+n=a0.A_(o,p>0?a0.f2(q,s[p-1].e):a1)
+r[p]=n==null||!isFinite(n)?a1:n*100}return r}if(A.bh6(a3))return a0.y
+if(a3==="Crec. RevQ YoY %")return a0.z
+if(a3==="Crec. Total YoY %"){m=a0.d
 r=A.b([],t.Yw)
-l=[a.Q,a.as,a.at,a.ax]
+l=[a0.Q,a0.as,a0.at,a0.ax]
 k=m==="Q1"?1:0
 if(m==="Q2")k=2
 if(m==="Q3")k=3
 if(m==="Q4")k=4
-for(p=0;p<k;++p)B.b.O(r,l[p])
-return r}if(a2==="PEG"){r=A.bi(s.length,a0,!1,t.t)
-j=new A.aD5(a,s)
-for(a1=a.r,q=s.$flags|0,p=0;p<s.length;++p){i=s[p]
-h=a.db
-h===$&&A.a()
-h=a1.h(0,h.toUpperCase())
-g=h==null?a0:h.h(0,i.a)
-f=j.$1(p)
-if(g==null||f==null||f<=0)continue
-e=g/f
-d=a.A_(f,p>0?j.$1(p-1):a0)
-c=d==null?a0:d*100
-b=c!=null&&c>0?e/c:e
-if(isFinite(b)){r[p]=b
-h=i.Ku(b)
+for(p=0;p<k;++p)for(a2=l[p],q=a2.length,j=0;j<a2.length;a2.length===q||(0,A.H)(a2),++j){n=a2[j]
+if(n!=null&&isFinite(n))r.push(n)}return r}if(a3==="PEG"){r=A.bi(s.length,a1,!1,t.t)
+i=new A.aD5(a0,s)
+for(a2=a0.r,q=s.$flags|0,p=0;p<s.length;++p){h=s[p]
+g=a0.db
+g===$&&A.a()
+g=a2.h(0,g.toUpperCase())
+f=g==null?a1:g.h(0,h.a)
+e=i.$1(p)
+if(f==null||e==null||e<=0)continue
+d=f/e
+c=a0.A_(e,p>0?i.$1(p-1):a1)
+b=c==null?a1:c*100
+a=b!=null&&b>0?d/b:d
+if(isFinite(a)){r[p]=a
+g=h.Ku(a)
 q&2&&A.aN(s)
-s[p]=h}}return r}return a0},
+s[p]=g}}return r}return a1},
 abd(c9,d0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2=this,c3=null,c4="Crec. QoQ %",c5="Crec. RevQ YoY %",c6="Crec. Total YoY %",c7={},c8=c2.k3
 if(c8.a===0)return B.GP
 c7.a=null
