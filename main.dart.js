@@ -43876,7 +43876,7 @@ $6$checked$context$onCheckboxChanged$onRowTap$overlayColor$tristate(a,b,c,d,e,f)
 $5$autofocus$focusNode$mouseCursor$painter$size(a,b,c,d,e){return this.G(this,A.L("call","$5$autofocus$focusNode$mouseCursor$painter$size",0,[a,b,c,d,e],["autofocus","focusNode","mouseCursor","painter","size"],0))},
 $2$revYear(a,b){return this.G(this,A.L("call","$2$revYear",0,[a,b],["revYear"],0))},
 $2$niYear(a,b){return this.G(this,A.L("call","$2$niYear",0,[a,b],["niYear"],0))},
-$10$cogs$epsDiluted$equity$fcf$longTermDebt$netIncome$peg$revenue$totalAssets$totalLiabilities(a,b,c,d,e,f,g,h,i,j){return this.G(this,A.L("call","$10$cogs$epsDiluted$equity$fcf$longTermDebt$netIncome$peg$revenue$totalAssets$totalLiabilities",0,[a,b,c,d,e,f,g,h,i,j],["cogs","epsDiluted","equity","fcf","longTermDebt","netIncome","peg","revenue","totalAssets","totalLiabilities"],0))},
+$12$capex$cogs$epsDiluted$equity$fcf$longTermDebt$netIncome$peg$revenue$sharesDiluted$totalAssets$totalLiabilities(a,b,c,d,e,f,g,h,i,j,k,l){return this.G(this,A.L("call","$12$capex$cogs$epsDiluted$equity$fcf$longTermDebt$netIncome$peg$revenue$sharesDiluted$totalAssets$totalLiabilities",0,[a,b,c,d,e,f,g,h,i,j,k,l],["capex","cogs","epsDiluted","equity","fcf","longTermDebt","netIncome","peg","revenue","sharesDiluted","totalAssets","totalLiabilities"],0))},
 $5$fcf$fcfPerShare$grossMarginPct$marketCap$netMarginPct(a,b,c,d,e){return this.G(this,A.L("call","$5$fcf$fcfPerShare$grossMarginPct$marketCap$netMarginPct",0,[a,b,c,d,e],["fcf","fcfPerShare","grossMarginPct","marketCap","netMarginPct"],0))},
 $1$ratios(a){return this.G(this,A.L("call","$1$ratios",0,[a],["ratios"],0))},
 $4$good$lowerIsBetter$mid(a,b,c,d){return this.G(this,A.L("call","$4$good$lowerIsBetter$mid",0,[a,b,c,d],["good","lowerIsBetter","mid"],0))},
@@ -103158,27 +103158,31 @@ A.acL.prototype={
 $1(a){return a.a===this.a},
 $S:114}
 A.acz.prototype={
-$2(a,b){var s,r,q,p,o,n,m,l,k,j=this.b,i=j.h(0,a),h=this.a.Qf(b),g=new A.acB()
-if(i!=null){s=g.$1(h.b)
-if(s==null)s=i.b
-r=g.$1(h.c)
-if(r==null)r=i.c
-q=g.$1(h.d)
-if(q==null)q=i.d
-p=g.$1(h.e)
-if(p==null)p=i.e
-o=g.$1(h.r)
-if(o==null)o=i.r
-n=g.$1(h.w)
-if(n==null)n=i.w
-m=g.$1(h.y)
-if(m==null)m=i.y
-l=g.$1(h.x)
-if(l==null)l=i.x
-k=g.$1(h.ch)
-if(k==null)k=i.ch
-g=g.$1(h.fr)
-j.m(0,a,i.au4(r,p,m,k,l,q,g==null?i.fr:g,s,o,n))}else j.m(0,a,h)},
+$2(a,b){var s,r,q,p,o,n,m,l,k,j,i,h=this.b,g=h.h(0,a),f=this.a.Qf(b),e=new A.acB()
+if(g!=null){s=e.$1(f.b)
+if(s==null)s=g.b
+r=e.$1(f.c)
+if(r==null)r=g.c
+q=e.$1(f.d)
+if(q==null)q=g.d
+p=e.$1(f.e)
+if(p==null)p=g.e
+o=e.$1(f.r)
+if(o==null)o=g.r
+n=e.$1(f.w)
+if(n==null)n=g.w
+m=e.$1(f.y)
+if(m==null)m=g.y
+l=e.$1(f.x)
+if(l==null)l=g.x
+k=f.at
+if(k==null)k=g.at
+j=f.f
+if(j==null)j=g.f
+i=e.$1(f.ch)
+if(i==null)i=g.ch
+e=e.$1(f.fr)
+h.m(0,a,g.au4(k,r,p,m,i,l,q,e==null?g.fr:e,s,j,o,n))}else h.m(0,a,f)},
 $S:668}
 A.acB.prototype={
 $1(a){if(a==null)return null
@@ -103353,8 +103357,8 @@ if(r==null)r=0
 return p+s-r},
 lj(a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7){var s=this,r=c3==null?s.b:c3,q=a8==null?s.c:a8,p=b6==null?s.d:b6,o=a9==null?s.e:a9,n=c4==null?s.f:c4,m=c6==null?s.r:c6,l=c7==null?s.w:c7,k=b4==null?s.x:b4,j=b0==null?s.y:b0,i=a6==null?s.z:a6,h=c5==null?s.Q:c5,g=a7==null?s.as:a7,f=a5==null?s.at:a5,e=b3==null?s.ax:b3,d=b7==null?s.ay:b7,c=b1==null?s.ch:b1,b=b2==null?s.CW:b2,a=b5==null?s.cy:b5,a0=b9==null?s.db:b9,a1=c0==null?s.dx:c0,a2=c1==null?s.dy:c1,a3=b8==null?s.fr:b8,a4=c2==null?s.fx:c2
 return A.V9(f,i,g,q,o,j,c,b,e,k,a,p,d,a3,a0,a1,a2,a4,r,n,h,s.cx,m,l,s.a)},
-au4(a,b,c,d,e,f,g,h,i,j){var s=null
-return this.lj(s,s,s,a,b,c,d,s,s,e,s,f,s,g,s,s,s,s,h,s,s,i,j)},
+au4(a,b,c,d,e,f,g,h,i,j,k,l){var s=null
+return this.lj(a,s,s,b,c,d,e,s,s,f,s,g,s,h,s,s,s,s,i,j,s,k,l)},
 auz(a,b,c,d,e){var s=null
 return this.lj(s,s,s,s,s,s,a,b,c,s,d,s,e,s,s,s,s,s,s,s,s,s,s)},
 atW(a){var s=null
