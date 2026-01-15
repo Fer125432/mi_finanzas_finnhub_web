@@ -106529,7 +106529,7 @@ q+=m*A.dx(n==null?0:n)}l=s>0?A.Mw(B.c.D(q/s,2)):0
 J.bj(k.a.c[j],"avgPrice",l)
 k=k.r
 k===$&&A.a()
-k[j].sb8(0,B.c.D(l,4))},
+k[j].sb8(0,B.c.D(l,2))},
 $S:0}
 A.az5.prototype={
 $2(a,b){return a+A.dx(J.S(b,"cantidad"))},
