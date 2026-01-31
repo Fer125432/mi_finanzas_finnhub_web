@@ -100322,7 +100322,7 @@ a3.push(new A.bZ(n,a5?Math.log(b7)/2.302585092994046:b7))}++n}}if(a3.length===0)
 c0=A.vn(a0,"%",0)
 if(c6.id||c0)h.push(a3)
 else{a5=!0
-if(a0!=="Precio")if(a0!=="EPS diluido")if(a0!=="PER")if(a0!=="P/S")if(a0!=="PSG")if(a0!=="PEG")if(a0!=="FCF/acci\xf3n")if(a0!=="ROE")if(a0!=="ROA")if(a0!=="FCF margin %")if(a0!=="Debt/Equity (LP)")if(a0!=="Assets/Liabilities")if(a0!=="Net Debt/FCF")if(a0!=="Capex/FCF")if(a0!=="Rev QoQ %")a5=a0==="EPS YoY %"
+if(a0!=="Precio")if(a0!=="PER")if(a0!=="P/S")if(a0!=="PSG")if(a0!=="PEG")if(a0!=="FCF/acci\xf3n")if(a0!=="ROE")if(a0!=="ROA")if(a0!=="FCF margin %")if(a0!=="Debt/Equity (LP)")if(a0!=="Assets/Liabilities")if(a0!=="Net Debt/FCF")if(a0!=="Capex/FCF")if(a0!=="Rev QoQ %")a5=a0==="EPS YoY %"
 if(a5)g.push(a3)
 else h.push(a3)}}d1=h.length===0
 if(d1&&g.length===0)return B.H_
