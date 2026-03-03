@@ -109974,12 +109974,14 @@ if(j==null||j<=0||f==null||f<=0){if(n.c==null){s=1
 break}n.J(new A.aNu(n))
 s=1
 break}c=j
-a4=c
-if(a4>50)c/=100
 b=null
 a=null
-if(i!=null&&i>0){a0=c*i
-b=Math.pow(a0/f,1/d)-1}if(h!=null&&h>0){a1=c*h
+if(i!=null&&i>0){a4=c
+a4.toString
+a0=a4*i
+b=Math.pow(a0/f,1/d)-1}if(h!=null&&h>0){a4=c
+a4.toString
+a1=a4*h
 a=Math.pow(a1/f,1/d)-1}if(b!=null&&a!=null)a7=(b+a)/2
 else{a4=b
 a7=a4==null?a:a4}a2=a7
