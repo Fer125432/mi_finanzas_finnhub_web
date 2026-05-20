@@ -99998,7 +99998,7 @@ d6.push(h<d4.gA(d3)?d4.h(d3,h):g5)}d7=A.b([],h6)
 for(h=1;h<d6.length;++h){a4=d6[h-1]
 c7=d6[h]
 if(a4==null||c7==null||a4===0)d7.push(g5)
-else d7.push((c7-a4)/a4*100)}g4.at=d7
+else d7.push((c7-a4)/Math.abs(a4)*100)}g4.at=d7
 g4.pr(g4.k1)
 h6=g4.ay
 B.b.Z(h6)
@@ -101989,15 +101989,18 @@ A.aGw.prototype={
 $2(a,b){return a>b?a:b},
 $S:114}
 A.aGF.prototype={
-$1(a){var s,r,q,p,o=A.b([],t.c)
+$1(a){var s,r,q,p,o,n=A.b([],t.c)
 for(s=J.a1(a),r=0;r<s.gA(a);++r){q=!0
 if(r!==0)if(s.h(a,r)!=null){q=r-1
-q=s.h(a,q)==null||s.h(a,q)===0}if(q)o.push(null)
+q=s.h(a,q)==null||s.h(a,q)===0}if(q)n.push(null)
 else{q=s.h(a,r)
 q.toString
-p=s.h(a,r-1)
+p=r-1
+o=s.h(a,p)
+o.toString
+p=s.h(a,p)
 p.toString
-o.push((q/p-1)*100)}}return o},
+n.push((q-o)/Math.abs(p)*100)}}return n},
 $S:639}
 A.aGx.prototype={
 $1(a){var s=this.a.h(0,"Q1")
@@ -102059,7 +102062,7 @@ q=l==null?m:J.L(l,r)
 break
 case"Q4":l=l.e.h(0,"Q4")
 q=l==null?m:J.L(l,r)
-break}p=q!=null&&s!=null&&q!==0?(s/q-1)*100:m
+break}p=q!=null&&s!=null&&q!==0?(s-q)/Math.abs(q)*100:m
 o=J.L(n.d,n.e)
 l=o==null
 if(l&&s==null)return"\u2014"
