@@ -99684,7 +99684,7 @@ return null}s=B.c.gu_(b)?Math.abs(b):b
 return(a-b)/s},
 adS(a,b){var s,r
 if(a==null||b==null||b===0)return"\u2014"
-s=(a-b)/b*100
+s=(a-b)/Math.abs(b)*100
 r=s>=0?"+":""
 return r+B.c.B(s,1)+"%"},
 Ix(a,b,c){var s=null,r=this.adS(b,c),q=r==="\u2014",p=!q&&B.d.bx(r,"+"),o=p?A.aj(31,B.aw.t()>>>16&255,B.aw.t()>>>8&255,B.aw.t()&255):A.aj(31,B.b1.t()>>>16&255,B.b1.t()>>>8&255,B.b1.t()&255),n=p?B.po:B.kX,m=q?A.aj(31,B.cp.t()>>>16&255,B.cp.t()>>>8&255,B.cp.t()&255):o,l=A.cR(12)
