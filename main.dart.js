@@ -29029,7 +29029,7 @@ aEI:function aEI(){},
 aEJ:function aEJ(){},
 aEg:function aEg(){},
 aEh:function aEh(a){this.a=a},
-aEi:function aEi(){},
+aEi:function aEi(a){this.a=a},
 aEj:function aEj(a,b){this.a=a
 this.b=b},
 aEk:function aEk(){},
@@ -100380,52 +100380,57 @@ q=a0.ch
 q.toString
 s=Math.abs(r)/Math.abs(q)
 break
-case"Market Cap":s=a0.cy
+case"Market Cap":r=b.y.h(0,a2.toUpperCase())
+p=r==null?a:r.h(0,a0.a)
+if(p==null||a0.f==null)return a
+r=a0.f
+r.toString
+s=p*r
 break
 case"Precio":r=b.y.h(0,a2.toUpperCase())
 s=r==null?a:r.h(0,a0.a)
 break
 case"PER":r=b.y.h(0,a2.toUpperCase())
-p=r==null?a:r.h(0,a0.a)
-o=b.f8(a2,a0.e)
-if(p==null||o==null||o<=0)return a
-s=p/o
-if(isFinite(s)){n=a0.auI(s)
+o=r==null?a:r.h(0,a0.a)
+n=b.f8(a2,a0.e)
+if(o==null||n==null||n<=0)return a
+s=o/n
+if(isFinite(s)){m=a0.auI(s)
 r=b.k1
 r===$&&A.a()
 r=r.Q.b
 q=B.b.dU(r,a0)
 r.$flags&2&&A.aU(r)
-r[q]=n}break
+r[q]=m}break
 case"P/S":r=b.y.h(0,a2.toUpperCase())
-m=r==null?a:r.h(0,a0.a)
+p=r==null?a:r.h(0,a0.a)
 r=!0
-if(m!=null)if(a0.b!=null){r=a0.f
+if(p!=null)if(a0.b!=null){r=a0.f
 r=r==null||r===0}if(r)return a
 r=a0.b
 r.toString
 q=a0.f
 q.toString
-s=m/(r/q)
-if(isFinite(s)){n=a0.auK(s)
+s=p/(r/q)
+if(isFinite(s)){m=a0.auK(s)
 r=b.k1
 r===$&&A.a()
 r=r.Q.b
 q=B.b.dU(r,a0)
 r.$flags&2&&A.aU(r)
-r[q]=n}break
+r[q]=m}break
 case"PSG":r=b.k3
 r===$&&A.a()
 r=b.y.h(0,r.toUpperCase())
-m=r==null?a:r.h(0,a0.a)
+p=r==null?a:r.h(0,a0.a)
 r=!0
-if(m!=null)if(a0.b!=null){r=a0.f
+if(p!=null)if(a0.b!=null){r=a0.f
 r=r==null||r===0}if(r)return a
 r=a0.b
 r.toString
 q=a0.f
 q.toString
-l=m/(r/q)
+l=p/(r/q)
 q=b.k1
 q===$&&A.a()
 r=q.Q.b
@@ -100436,11 +100441,11 @@ j=A.P(k).i("n<1,m>")
 k=A.o(new A.n(k,new A.aDd(),j),j.i("W.E"))
 i=A.cl(r,!0,k)
 s=isFinite(l)&&i!=null&&i>0?l/(i*100):a
-if(s!=null&&isFinite(s)){n=a0.auL(s)
+if(s!=null&&isFinite(s)){m=a0.auL(s)
 r=q.Q.b
 q=B.b.dU(r,a0)
 r.$flags&2&&A.aU(r)
-r[q]=n}break
+r[q]=m}break
 case"PEG":r=b.Q
 h=r.h(0,a2.toUpperCase())
 if(h==null){q=b.k1
@@ -100448,19 +100453,19 @@ q===$&&A.a()
 h=q.Q}if(h==null||h.b.length===0)return a
 r.m(0,a2.toUpperCase(),h)
 q=b.y.h(0,a2.toUpperCase())
-m=q==null?a:q.h(0,a0.a)
-if(m==null||m<=0)return a
+p=q==null?a:q.h(0,a0.a)
+if(p==null||p<=0)return a
 g=b.f8(a2,a0.e)
 if(g==null||g<=0)return a
 q=h.b
 f=B.b.kK(q,new A.aDe(a0))
 e=f>0?b.f8(a2,q[f-1].e):a
-d=m/g
+d=p/g
 if(e!=null&&e>0){c=b.Af(g,e)
 s=c!=null&&c>0?d/(c*100):d}else s=d
-if(isFinite(s)&&f>=0){n=a0.ZH(s)
+if(isFinite(s)&&f>=0){m=a0.ZH(s)
 q.$flags&2&&A.aU(q)
-q[f]=n
+q[f]=m
 r.m(0,a2.toUpperCase(),h)}return s
 case"Caja":s=a0.z
 break
@@ -100524,7 +100529,7 @@ q=t.Eu
 s=A.o(new A.n(A.b([s.ga_(r).b,s.ga_(r).e,s.ga_(r).w,s.ga_(r).z],t.c),new A.aEh(r),q),q.i("W.E"))
 return s
 case"Market Cap":s=A.P(l).i("n<1,l?>")
-s=A.o(new A.n(l,new A.aEi(),s),s.i("W.E"))
+s=A.o(new A.n(l,new A.aEi(o),s),s.i("W.E"))
 return s
 case"P/S":return A.ih(l.length,new A.aEj(o,l),!0,t.t)
 case"PSG":s=A.P(l)
@@ -102726,7 +102731,14 @@ s.toString
 s=(a/s-1)*100}return s},
 $S:148}
 A.aEi.prototype={
-$1(a){return a.cy},
+$1(a){var s,r=this.a,q=r.k3
+q===$&&A.a()
+q=r.y.h(0,q.toUpperCase())
+s=q==null?null:q.h(0,a.a)
+if(s==null||a.f==null)return null
+r=a.f
+r.toString
+return s*r},
 $S:2}
 A.aEj.prototype={
 $1(a){var s,r=this.b[a],q=this.a,p=q.k3
