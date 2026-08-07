@@ -100806,81 +100806,81 @@ for(m=h.length,j=t.ij,e=t.c,d=d1.dx,c=d1.dy,b=d1.fr,a=d1.fx,a0=d1.CW,a1=d1.cx,a2
 if(a5===d6){a6=[a0,a1,a2,a3]
 for(n=0;n<4;++n){a7=a6[n]
 a8=A.b([],j)
-a9=a7.length-1
-b0=d1.k3
-b0===$&&A.a()
-b1=d1.pv(b0)
-for(b2=0;b2<a7.length;++b2){b3=a7[b2]
-if(b3==null||!isFinite(b3))continue
-if(b2===a9){switch(n){case 0:b4=b1.b!=null
+a9=d1.k3
+a9===$&&A.a()
+b0=d1.pv(a9)
+for(a9=b0.a,b1=0;b1<a7.length;++b1){b2=a7[b1]
+if(b2==null||!isFinite(b2))continue
+b3=d8.a
+if(b1<b3.length&&b3[b1]===a9){switch(n){case 0:b4=b0.b!=null
 break
-case 1:b4=b1.e!=null
+case 1:b4=b0.e!=null
 break
-case 2:b4=b1.w!=null
+case 2:b4=b0.w!=null
 break
-case 3:b4=b1.z!=null
+case 3:b4=b0.z!=null
 break
-default:b4=!1}if(!b4)continue}a8.push(new A.bM(b2,b3))}if(a8.length!==0)g.push(a8)}continue}if(a5===d7){a6=[d,c,b,a]
+default:b4=!1}if(!b4)continue}a8.push(new A.bM(b1,b2))}if(a8.length!==0)g.push(a8)}continue}if(a5===d7){a6=[d,c,b,a]
 for(n=0;n<4;++n){a7=a6[n]
 a8=A.b([],j)
-a9=a7.length-1
-b0=d1.k3
-b0===$&&A.a()
-b1=d1.pv(b0)
-for(b2=0;b2<a7.length;++b2){b3=a7[b2]
-if(b3==null||!isFinite(b3))continue
-if(b2===a9){switch(n){case 0:b4=b1.d!=null
+a9=d1.k3
+a9===$&&A.a()
+b0=d1.pv(a9)
+for(a9=b0.a,b1=0;b1<a7.length;++b1){b2=a7[b1]
+if(b2==null||!isFinite(b2))continue
+b3=d8.a
+if(b1<b3.length&&b3[b1]===a9){switch(n){case 0:b4=b0.d!=null
 break
-case 1:b4=b1.r!=null
+case 1:b4=b0.r!=null
 break
-case 2:b4=b1.y!=null
+case 2:b4=b0.y!=null
 break
-case 3:b4=b1.as!=null
+case 3:b4=b0.as!=null
 break
-default:b4=!1}if(!b4)continue}a8.push(new A.bM(b2,b3))}if(a8.length!==0)g.push(a8)}continue}b5=d1.aq7(e0,a5)
+default:b4=!1}if(!b4)continue}a8.push(new A.bM(b1,b2))}if(a8.length!==0)g.push(a8)}continue}b5=d1.aq7(e0,a5)
 b6=d9.n(0,d3)||d9.n(0,d4)
-b0=a5!=="Crec. QoQ %"
-b7=!b0||a5==="Crec. EPS QoQ %"
+a9=a5!=="Crec. QoQ %"
+b7=!a9||a5==="Crec. EPS QoQ %"
 if(b6&&!b7){s=d1.l7(d3,e0)
 if(s!=null&&s.length!==0){b8=A.b([],e)
 for(n=0;n<b5.length;++n)for(b9=0;b9<4;++b9)b8.push(b5[n])
 if(a5===d5){c0=B.b.gY(d1.at)
-for(b9=0;b9<4;++b9)b8.push(c0)}b5=b8}}if(!b0||a5==="Crec. EPS QoQ %"){s=d1.l7(a5,e0)
+for(b9=0;b9<4;++b9)b8.push(c0)}b5=b8}}if(!a9||a5==="Crec. EPS QoQ %"){s=d1.l7(a5,e0)
 if(s!=null&&s.length!==0)b5=s}a8=A.b([],j)
 c1=d2
-if(d1.p3){for(b0=b5.length,c2=0;c2<b0;++c2){c3=b5[c2]
+if(d1.p3){for(a9=b5.length,c2=0;c2<a9;++c2){c3=b5[c2]
 if(c3!=null&&isFinite(c3)){c1=c3
 break}}if(c1==null||c1===0)continue}c4=A.cR(a5.toLowerCase()," ","")
-if(A.AO(c4,"crec",0))b0=A.AO(c4,"qoq",0)
-else b0=!1
-if(b0){b0=d1.k3
-b0===$&&A.a()
-b1=d1.pv(b0)
+if(A.AO(c4,"crec",0))a9=A.AO(c4,"qoq",0)
+else a9=!1
+if(a9){a9=d1.k3
+a9===$&&A.a()
+b0=d1.pv(a9)
 c4=b5.length
 c5=c4>=4?c4-4:c4
-for(b0=a5==="Crec. EPS QoQ %",n=0;n<b5.length;++n){b3=b5[n]
-if(b3==null||!isFinite(b3))continue
-if(n>=c5){switch(n-c5){case 0:b4=b0?b1.d!=null:b1.b!=null
+for(a9=a5==="Crec. EPS QoQ %",n=0;n<b5.length;++n){b2=b5[n]
+if(b2==null||!isFinite(b2))continue
+if(n>=c5){switch(n-c5){case 0:b4=a9?b0.d!=null:b0.b!=null
 break
-case 1:b4=b0?b1.r!=null:b1.e!=null
+case 1:b4=a9?b0.r!=null:b0.e!=null
 break
-case 2:b4=b0?b1.y!=null:b1.w!=null
+case 2:b4=a9?b0.y!=null:b0.w!=null
 break
-case 3:b4=b0?b1.as!=null:b1.z!=null
+case 3:b4=a9?b0.as!=null:b0.z!=null
 break
-default:b4=!1}if(!b4)continue}a8.push(new A.bM(n,d1.p2?Math.log(b3)/2.302585092994046:b3))}}else{n=0
+default:b4=!1}if(!b4)continue}a8.push(new A.bM(n,d1.p2?Math.log(b2)/2.302585092994046:b2))}}else{n=0
 while(!0){if(!(n<d8.a.length&&n<b5.length))break
-c$8:{b3=b5[n]
-if(b3==null||!isFinite(b3))break c$8
+c$8:{b2=b5[n]
+if(b2==null||!isFinite(b2))break c$8
 if(d1.p3){c1.toString
-c3=b3/c1*100}else c3=b3
-b0=d1.p2
-if(b0&&c3<=0)break c$8
-a8.push(new A.bM(n,b0?Math.log(c3)/2.302585092994046:c3))}++n}}if(a8.length===0)continue
+c3=b2/c1*100}else c3=b2
+a9=d1.p2
+if(a9&&c3<=0)break c$8
+a8.push(new A.bM(n,a9?Math.log(c3)/2.302585092994046:c3))}++n}}if(a8.length===0)continue
 if(d1.p3)g.push(a8)
-else{b0=!0
-if(a5!=="PER")if(a5!=="P/S")if(a5!=="PEG")if(a5!=="ROE")if(a5!=="ROA")if(a5!=="FCF margin %")if(a5!=="Debt/Equity (LP)")if(a5!=="Assets/Liabilities")if(a5!=="Net Debt/FCF")if(a5!=="Capex/FCF")b0=a5==="Rev QoQ %"
-if(b0)f.push(a8)
+else{a9=!0
+if(a5!=="PER")if(a5!=="P/S")if(a5!=="PEG")if(a5!=="ROE")if(a5!=="ROA")if(a5!=="FCF margin %")if(a5!=="Debt/Equity (LP)")if(a5!=="Assets/Liabilities")if(a5!=="Net Debt/FCF")if(a5!=="Capex/FCF")a9=a5==="Rev QoQ %"
+if(a9)f.push(a8)
 else g.push(a8)}}d9=g.length===0
 if(d9&&f.length===0)return B.Hj
 c6=!d9?g:f
