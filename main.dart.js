@@ -117504,117 +117504,118 @@ o.as=A.z(t.S,t.i)
 o.tg(p).cj(new A.aUb(o,p),t.a)}}},
 he(a){return this.ars(a)},
 CA(){return this.he(!1)},
-ars(d1){var s=0,r=A.w(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0
-var $async$he=A.q(function(d2,d3){if(d2===1){p.push(d3)
-s=q}while(true)switch(s){case 0:c8=o.c
-c8.toString
-n=A.iO(c8,!1,t.Q)
+ars(d4){var s=0,r=A.w(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3
+var $async$he=A.q(function(d5,d6){if(d5===1){p.push(d6)
+s=q}while(true)switch(s){case 0:d1=o.c
+d1.toString
+n=A.iO(d1,!1,t.Q)
 s=2
 return A.e(A.b3(),$async$he)
-case 2:m=d3
-c8=n.Q
-b5=c8==null?null:c8.a
-c8=t.N
-d0=J
+case 2:m=d6
+d1=n.Q
+b8=d1==null?null:d1.a
+d1=t.N
+d3=J
 s=3
 return A.e(A.wZ(),$async$he)
-case 3:b6=d0.cj(d3,new A.aTr(),c8).vV(0,new A.aTs())
-b6=A.er(A.er(b6,b6.$ti.i("A.E")),c8)
-b7=n.a.w
-b6.J(0,new A.m(b7,new A.aTt(),A.K(b7).i("m<1,f>")))
-b8=A.p(b6,A.r(b6).c)
+case 3:b9=d3.cj(d6,new A.aTr(),d1).vV(0,new A.aTs())
+b9=A.er(A.er(b9,b9.$ti.i("A.E")),d1)
+c0=n.a.w
+b9.J(0,new A.m(c0,new A.aTt(),A.K(c0).i("m<1,f>")))
+c1=A.p(b9,A.r(b9).c)
 l=new A.aTp(m)
 k=new A.aTq(m)
-b6=b8.length,b7=t.z,b9=t.h6,c0=0
-case 4:if(!(c0<b8.length)){s=6
-break}j=b8[c0]
+b9=c1.length,c0=t.z,c2=t.h6,c3=0
+case 4:if(!(c3<c1.length)){s=6
+break}j=c1[c3]
 q=8
 s=11
 return A.e(J.b73(n,j),$async$he)
 case 11:s=12
 return A.e(n.h0(j),$async$he)
-case 12:c1=n
-c2=c1.Q
-i=c2==null?null:c1.w.h(0,c2.a)
+case 12:c4=n
+c5=c4.Q
+i=c5==null?null:c4.w.h(0,c5.a)
 if(i==null||i.b.length<2){s=5
-break}s=d1?13:14
+break}s=d4?13:14
 break
 case 13:s=15
 return A.e(o.mF(j,!1),$async$he)
-case 15:case 14:c3=A.d5(i.b,!0,b9)
-B.b.ck(c3,new A.aTu())
-h=c3
+case 15:case 14:c6=A.d5(i.b,!0,c2)
+B.b.ck(c6,new A.aTu())
+h=c6
 g=J.kX(h)
 f=k.$1(i.a)
 s=16
 return A.e(A.Hq(i.a),$async$he)
-case 16:e=d3
-c1=h
-c2=A.K(c1).i("m<1,l>")
-c4=A.p(new A.m(c1,new A.aTv(),c2),c2.i("S.E"))
-d=c4
-c1=h
-c2=A.K(c1).i("m<1,n?>")
-c5=A.p(new A.m(c1,new A.aTw(e,f),c2),c2.i("S.E"))
-c=c5
+case 16:e=d6
+c4=h
+c5=A.K(c4).i("m<1,l>")
+c7=A.p(new A.m(c4,new A.aTv(),c5),c5.i("S.E"))
+d=c7
+c4=h
+c5=A.K(c4).i("m<1,n?>")
+c8=A.p(new A.m(c4,new A.aTw(e,f),c5),c5.i("S.E"))
+c=c8
 b=g.a
 a=b+o.Q
 a0=A.b5j(b,a,c,d)
 s=17
 return A.e(l.$1(i.a),$async$he)
-case 17:a1=d3
-c1=i.a
-a2=A.dd(J.B(m.a,"tradingview_eps_ttm_"+c1.toUpperCase()))
+case 17:a1=d6
+c4=i.a
+a2=A.dd(J.B(m.a,"tradingview_eps_ttm_"+c4.toUpperCase()))
 a3=null
 a4=null
 if(a1!=null&&a1>0&&a2!=null&&a2>0&&a0!=null&&a0>0){a5=a1/a2
 a6=a0*100
 a3=a5/a6
-if(!isFinite(a3)||a3<=0)a3=null
-if(a3!=null){a4=a6/a3
-if(!isFinite(a4))a4=null}}a7=J.b70(h,new A.aTx(a))
+if(!isFinite(a3)||a3<=0)a3=null}a7=J.b70(h,new A.aTx(a))
 a8=null
 if(a7>=0&&a7<J.bg(c)){a9=J.B(h,a7)
 b0=J.B(c,a7)
 b1=a9.r
 b2=a9.w
-if(o.cx){c1=o.cy
-if(c1!=null)b1=c1
-c1=o.db
-if(c1!=null)b2=c1}if(b0!=null&&b0>0&&a1!=null&&a1>0){b3=null
+if(o.cx){c4=o.cy
+if(c4!=null)b1=c4
+c4=o.db
+if(c4!=null)b2=c4}if(b0!=null&&b0>0&&a1!=null&&a1>0){b3=null
 b4=null
 if(b1!=null&&b1>0)b3=Math.pow(b0*b1/a1,1/o.Q)-1
 if(b2!=null&&b2>0)b4=Math.pow(b0*b2/a1,1/o.Q)-1
-if(b3!=null&&b4!=null)c6=(b3+b4)/2
-else{c1=b3
-c6=c1==null?b4:c1}a8=c6}}s=a0!=null?18:19
+if(b3!=null&&b4!=null)c9=(b3+b4)/2
+else{c4=b3
+c9=c4==null?b4:c4}a8=c9}}if(a3!=null&&a8!=null&&a0!=null){b5=a0*100
+b6=Math.max(0,1+2*a8)
+b7=b5/a3*b6
+a4=isFinite(b7)?b7:null}s=a0!=null?18:19
 break
 case 18:s=20
 return A.e(A.Pv(i.a,a0),$async$he)
 case 20:case 19:s=21
-return A.e(A.PB(A.Z(["ticker",i.a.toUpperCase(),"ret",a8,"cagr",a0,"peg",a3,"score",a4],c8,b7)),$async$he)
+return A.e(A.PB(A.Z(["ticker",i.a.toUpperCase(),"ret",a8,"cagr",a0,"peg",a3,"score",a4],d1,c0)),$async$he)
 case 21:q=1
 s=10
 break
 case 8:q=7
-c9=p.pop()
+d2=p.pop()
 s=10
 break
 case 7:s=1
 break
-case 10:case 5:b8.length===b6||(0,A.H)(b8),++c0
+case 10:case 5:c1.length===b9||(0,A.H)(c1),++c3
 s=4
 break
-case 6:s=b5!=null?22:23
+case 6:s=b8!=null?22:23
 break
 case 22:s=24
-return A.e(J.b73(n,b5),$async$he)
+return A.e(J.b73(n,b8),$async$he)
 case 24:s=25
-return A.e(n.h0(b5),$async$he)
+return A.e(n.h0(b8),$async$he)
 case 25:s=26
-return A.e(o.kQ(b5),$async$he)
+return A.e(o.kQ(b8),$async$he)
 case 26:s=27
-return A.e(o.tg(b5),$async$he)
+return A.e(o.tg(b8),$async$he)
 case 27:case 23:return A.u(null,r)
 case 1:return A.t(p.at(-1),r)}})
 return A.v($async$he,r)},
