@@ -105859,7 +105859,7 @@ while(true)switch(s){case 0:s=3
 return A.e(A.aW(),$async$pS)
 case 3:a0=a4
 s=4
-return A.e(a0.I(0,"screener_aceleracion_ventas_v2_"+a1.toUpperCase()),$async$pS)
+return A.e(a0.I(0,"screener_aceleracion_ventas_v3_"+a1.toUpperCase()),$async$pS)
 case 4:p=a2.d
 if(p==null)p=[]
 p=A.p(p,t.z)
@@ -105887,7 +105887,7 @@ a=c-b
 if(!isFinite(a)){s=6
 break}A.xb().$1("ACELERACION CALCULADA "+a1+" Q"+j+" actual="+A.x(i)+" anterior="+A.x(e)+" hace2="+A.x(d)+" yoyActual="+A.x(c)+" yoyAnterior="+A.x(b)+" ACEL="+A.x(a))
 s=8
-return A.e(a0.bn("Double","screener_aceleracion_ventas_v2_"+a1.toUpperCase(),a),$async$pS)
+return A.e(a0.bn("Double","screener_aceleracion_ventas_v3_"+a1.toUpperCase(),a),$async$pS)
 case 8:q=a
 s=1
 break
@@ -119216,7 +119216,7 @@ l=B.d.b7(a0==null?e.a(a0):a0).toUpperCase()
 if(l.length===0)continue
 a1=A.d_(g.h(h,"screener_fund_score_"+l))
 a2=J.B(o,l)
-a3=A.d_(g.h(h,"screener_aceleracion_ventas_"+l))
+a3=A.d_(g.h(h,"screener_aceleracion_ventas_v3_"+l))
 if(a1==null&&a2==null&&a3==null)continue
 b.push(new A.kS(l,a1,a2,a3))}B.b.c4(b,new A.aXf(p))
 if(p.c==null){s=1
