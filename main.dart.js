@@ -105792,7 +105792,7 @@ while(true)switch(s){case 0:n=A
 m=J
 s=3
 return A.e(A.aW(),$async$wd)
-case 3:o=n.d_(m.B(c.a,"screener_aceleracion_ventas_"+a.toUpperCase()))
+case 3:o=n.d_(m.B(c.a,"screener_aceleracion_ventas_v2_"+a.toUpperCase()))
 if(p.c==null){s=1
 break}p.F(new A.aIE(p,o))
 case 1:return A.t(q,r)}})
@@ -105870,7 +105870,7 @@ while(true)switch(s){case 0:s=3
 return A.e(A.aW(),$async$t0)
 case 3:b=a2
 s=4
-return A.e(b.I(0,"screener_aceleracion_ventas_"+a.toUpperCase()),$async$t0)
+return A.e(b.I(0,"screener_aceleracion_ventas_v2_"+a.toUpperCase()),$async$t0)
 case 4:p=a0.d
 if(p==null)p=[]
 p=A.p(p,t.z)
@@ -105895,7 +105895,7 @@ if(e==null||d==null||!isFinite(e)||!isFinite(d)||e===0||d===0){s=6
 break}c=(i-e)/e*100-(e-d)/d*100
 if(!isFinite(c)){s=6
 break}s=8
-return A.e(b.bn("Double","screener_aceleracion_ventas_"+a.toUpperCase(),c),$async$t0)
+return A.e(b.bn("Double","screener_aceleracion_ventas_v2_"+a.toUpperCase(),c),$async$t0)
 case 8:q=c
 s=1
 break
