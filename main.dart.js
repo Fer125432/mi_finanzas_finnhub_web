@@ -113685,8 +113685,8 @@ break}J.aH(j[a],"precio",m)
 i=p.CW
 i===$&&A.a()
 if(a<i.length)i[a].sb1(0,B.c.A(m,2))
-i=J.B(j[a],"eps")
-if(i==null)i=J.B(j[a],"epsTTM")
+i=J.B(j[a],"epsTTM")
+if(i==null)i=J.B(j[a],"eps")
 l=A.aL(i==null?0:i)
 if(l>0){k=m/l
 J.aH(j[a],"per",k)
