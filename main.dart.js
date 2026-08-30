@@ -121481,7 +121481,7 @@ s=a.y||a.z
 r=a.x&&!s
 q=!1
 if(!a.w)if(!r){p=!a.Q||s
-q=p}return n>=10&&o<1.5&&q},
+q=p}return n>=0.1&&o<1.5&&q},
 U6(a,b){switch(b){case"COMPRAR":return this.U5(a)
 case"ESPERAR":return!this.U5(a)
 case"TODAS":default:return!0}},
