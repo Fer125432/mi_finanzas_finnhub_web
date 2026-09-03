@@ -116274,48 +116274,51 @@ A.aUc.prototype={
 $0(){A.a8(this.a,!1).ae(!0)},
 $S:0}
 A.aUD.prototype={
-$1(a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=null,d=this.a,c=d.r,b=this.b,a=J.x(c[b],"per")
-a=J.Dk(a==null?0:a)
-s=J.x(c[b],"cagr")
+$1(a2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=null,b=this.a,a=b.r,a0=this.b,a1=J.x(a[a0],"per")
+a1=J.Dk(a1==null?0:a1)
+s=J.x(a[a0],"cagr")
 s=J.Dk(s==null?0:s)
-r=J.x(c[b],"eps")
+r=J.x(a[a0],"eps")
 r=J.Dk(r==null?0:r)
-q=J.x(c[b],"precio")
-p=A.bfn(s,r,a,J.Dk(q==null?0:q))
-a=p.e
-a===$&&A.a()
-s=a!=null
-if(s)if(a>3){o=B.q
-n=B.a6}else{if(a>2)o=B.zh
-else if(a>=1.5&&a<=2)o=B.b5
-else if(a>=1&&a<1.5)o=B.ai
-else o=a<1?B.c5:B.q
+q=J.x(a[a0],"precio")
+p=A.bfn(s,r,a1,J.Dk(q==null?0:q))
+a1=p.e
+a1===$&&A.a()
+s=a1!=null
+if(s)if(a1>3){o=B.q
+n=B.a6}else{if(a1>2)o=B.zh
+else if(a1>=1.5&&a1<=2)o=B.b5
+else if(a1>=1&&a1<1.5)o=B.ai
+else o=a1<1?B.c5:B.q
 n=B.M}else{o=B.q
 n=B.M}r=p.f
 r===$&&A.a()
-m=d.Tv(b)
-l=A.aS(d.Uv(b).h(0,"estado"))
-k=new A.ae(c,new A.aUz(),A.G(c).i("ae<1>")).gB(0)
+m=b.Tv(a0)
+l=A.aS(b.Uv(a0).h(0,"estado"))
+k=new A.ae(a,new A.aUz(),A.G(a).i("ae<1>")).gB(0)
 j=k>0?100/k:100
-i=B.b.ep(c,0,new A.aUA())
+i=B.b.ep(a,0,new A.aUA())
 h=m/100
 g=j/100
 if(g<1)if(l==="COMPRAR"&&h<g)f=i*(g-h)/(1-g)
 else f=l==="VENTA PARCIAL"&&h>g?i*(h-g)/(1-g):0
 else f=0
-c=s?"PEG: "+B.c.u(a,2):"PEG: -"
-c=A.E(c,e,e,e,e,A.cD(e,e,o,e,e,e,e,e,e,e,e,14,e,e,n,e,e,!0,e,e,e,e,e,e,e,e),e,e,e)
-a=r==null
-s=!a?"PEGf: "+B.c.u(r,2):"PEGf: -"
-if(a)a=B.q
-else if(r<1)a=B.ai
-else a=r<=2?B.b5:B.aF
-a=A.E(s,e,e,e,e,A.cD(e,e,a,e,e,e,e,e,e,e,e,14,e,e,e,e,e,!0,e,e,e,e,e,e,e,e),e,e,e)
+a=J.x(a[a0],"precio")
+e=A.aE(a==null?0:a)
+d=e>0?f/e:0
+a=s?"PEG: "+B.c.u(a1,2):"PEG: -"
+a=A.E(a,c,c,c,c,A.cD(c,c,o,c,c,c,c,c,c,c,c,14,c,c,n,c,c,!0,c,c,c,c,c,c,c,c),c,c,c)
+a1=r==null
+s=!a1?"PEGf: "+B.c.u(r,2):"PEGf: -"
+if(a1)a1=B.q
+else if(r<1)a1=B.ai
+else a1=r<=2?B.b5:B.aF
+a1=A.E(s,c,c,c,c,A.cD(c,c,a1,c,c,c,c,c,c,c,c,14,c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c,c)
 s=l==="COMPRAR"
-if(s||l==="VENTA PARCIAL"){s=s?"Comprar $"+B.c.u(f,2):"Vender $"+B.c.u(f,2)
-s=A.wF(A.E("| "+B.c.u(m,1)+"%",e,e,e,e,B.oT,e,e,e),s)}else s=A.E("| "+B.c.u(m,1)+"%",e,e,e,e,B.oT,e,e,e)
+if(s||l==="VENTA PARCIAL"){s=s?"Comprar $"+B.c.u(f,2)+" \xb7 "+B.c.u(d,2)+" acciones":"Vender $"+B.c.u(f,2)+" \xb7 "+B.c.u(d,2)+" acciones"
+s=A.wF(A.E("| "+B.c.u(m,1)+"%",c,c,c,c,B.oT,c,c,c),s)}else s=A.E("| "+B.c.u(m,1)+"%",c,c,c,c,B.oT,c,c,c)
 r=t.p
-return A.Zq(B.cZ,A.b([c,A.aN(A.b([a,B.eG,s,B.Ed,new A.d4(new A.aUm(d,b),e)],r),B.n,B.h,B.S,0,e)],r),0,8)},
+return A.Zq(B.cZ,A.b([a,A.aN(A.b([a1,B.eG,s,B.Ed,new A.d4(new A.aUm(b,a0),c)],r),B.n,B.h,B.S,0,c)],r),0,8)},
 $S:775}
 A.aUz.prototype={
 $1(a){var s=J.x(a,"acciones")
