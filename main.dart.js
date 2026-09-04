@@ -114098,7 +114098,7 @@ if(!a9)a=!b&&b2!=null&&isFinite(b2)&&b2>1.8
 else a=!0
 s=!1
 if(m)if(o>c)s=(l||e)&&!g&&a
-if(s){b1=A.b([],t.s)
+if(s){b1=A.b(["Peso "+B.c.u(o,1)+"% > objetivo "+B.c.u(c,1)+"%"],t.s)
 if(l)b1.push("3 trimestres desacelerando !")
 if(e)b1.push(a5)
 if(a9)b1.push(a6)
