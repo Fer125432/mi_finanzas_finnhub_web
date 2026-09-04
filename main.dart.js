@@ -31903,7 +31903,7 @@ if(m<=0)return null
 o=s<=0
 if(o&&q>0)p=q
 else{if(o)return null
-p=s*Math.pow(1+(r>1?r/100:r),4)}o=Math.pow(1.12,4)
+p=s*Math.pow(1+(Math.abs(r)>1?r/100:r),4)}o=Math.pow(1.12,4)
 n=Math.pow(1.1,4)
 if(m<=p*20/o)return A.aj(64,B.ai.q()>>>16&255,B.ai.q()>>>8&255,B.ai.q()&255)
 else if(m<=p*25/n)return A.aj(64,B.b5.q()>>>16&255,B.b5.q()>>>8&255,B.b5.q()&255)
@@ -113901,8 +113901,8 @@ if(l<=0)return 0
 if(s<=0){n=n.h(a,"ultimoEpsProyectado")
 q=A.aB(n==null?0:n)
 if(q<=0)return 0
-p=q}else{if(r<=0)return 0
-p=s*Math.pow(1+(r>1?r/100:r),4)}o=p*22.5
+p=q}else p=s*Math.pow(1+(Math.abs(r)>1?r/100:r),4)
+o=p*22.5
 if(o<=0)return 0
 return(Math.pow(o/l,0.25)-1)*100},
 Ty(a){var s,r
