@@ -114440,8 +114440,9 @@ a0=Math.pow(1.12,4)
 d1=c7*d0/Math.pow(1.1,4)
 d2=(d1-c7*c9/a0)/2
 d3=Math.abs(d2)<1e-9?1:new A.aT0(b8,d1,d2).$0()
-d4=c5?1:Math.min(2,Math.max(0.5,1+(30-c2)/15))
-d5=Math.min(1.5,Math.max(0.8,1+c3))
+if(c5)d4=1
+else{a0=c2<=30?1+(30-c2)/15:1-(c2-30)/30
+d4=Math.min(2,Math.max(0.5,a0))}d5=Math.min(1.5,Math.max(0.8,1+c3))
 d6=c5?1:Math.min(2,Math.max(0.5,2*c3*100/c2))
 d7=c5?Math.sqrt(d5*d3):Math.pow(d4*d5*d6*d3,0.25)
 a.l(b8,"factor",d7)
@@ -115498,8 +115499,9 @@ h=Math.pow(1.12,4)
 b=f*c/Math.pow(1.1,4)
 a=(b-f*d/h)/2
 a0=Math.abs(a)<1e-9?1:new A.aU3(j,b,a).$0()
-a1=i?1:Math.min(2,Math.max(0.5,1+(30-l)/15))
-a2=Math.min(1.5,Math.max(0.8,1+m))
+if(i)a1=1
+else{h=l<=30?1+(30-l)/15:1-(l-30)/30
+a1=Math.min(2,Math.max(0.5,h))}a2=Math.min(1.5,Math.max(0.8,1+m))
 a3=i?1:Math.min(2,Math.max(0.5,2*m*100/l))
 a4=i?Math.sqrt(a2*a0):Math.pow(a1*a2*a3*a0,0.25)
 p.l(o,b0,a4)
