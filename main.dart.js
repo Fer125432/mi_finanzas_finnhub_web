@@ -113977,23 +113977,28 @@ l=A.di(p.h(l,"decision_requiere_recuperacion_v1_"+k))
 m.l(a,"decisionRequiereRecuperacion",l===!0)
 case 1:return A.t(q,r)}})
 return A.u($async$wA,r)},
-ago(a){var s,r,q,p,o,n,m=J.M(a),l=m.h(a,"precio"),k=A.ax(l==null?0:l)
-l=m.h(a,"eps")
-if(l==null)l=m.h(a,"epsTTM")
-s=A.ax(l==null?0:l)
-l=m.h(a,"epsTTM")
-A.ax(l==null?0:l)
-l=m.h(a,"cagr")
-r=A.ax(l==null?0:l)
-q=r<10?r*2:22.5
-if(k<=0)return 0
-if(s<=0){m=m.h(a,"ultimoEpsProyectado")
-p=A.ax(m==null?0:m)
-if(p<=0)return 0
-o=p}else o=s*Math.pow(1+(Math.abs(r)>1?r/100:r),4)
-n=o*q
-if(n<=0)return 0
-return(Math.pow(n/k,0.25)-1)*100},
+ago(a){var s,r,q,p,o,n,m,l,k,j,i=null,h=J.M(a),g=h.h(a,"precio"),f=A.ax(g==null?0:g)
+g=h.h(a,"eps")
+if(g==null)g=h.h(a,"epsTTM")
+s=A.ax(g==null?0:g)
+g=h.h(a,"cagr")
+r=A.ax(g==null?0:g)
+if(f<=0)return 0
+if(s<=0){h=h.h(a,"ultimoEpsProyectado")
+q=A.ax(h==null?0:h)
+if(q<=0)return 0
+p=q}else p=s*Math.pow(1+(Math.abs(r)>1?r/100:r),4)
+if(r<10){o=r*2
+n=o-2}else{n=20
+o=25}if(n>0){m=p*n
+l=m>0?Math.pow(m/f,0.25)-1:i}else l=i
+if(o>0){k=p*o
+j=k>0?Math.pow(k/f,0.25)-1:i}else j=i
+h=l!=null
+if(h&&j!=null)return(l+j)/2*100
+if(h)return l*100
+if(j!=null)return j*100
+return 0},
 TA(a){var s,r
 if(typeof a=="number")s=a
 else{r=a==null?null:J.ad(a)
