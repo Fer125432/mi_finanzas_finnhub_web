@@ -116368,21 +116368,21 @@ $1(a){var s=this.a,r=s.a
 return B.c.bA((a-r)/(s.b-r),0,1)},
 $S:1}
 A.aU_.prototype={
-$2(a,b){var s,r,q,p=this,o=null,n=b.b,m=new A.aU0(n),l=p.b,k=p.c,j=A.b([A.jZ(o,A.cv(o,o,B.r,o,o,new A.cM(B.KB,o,o,A.cJ(10),o,o,B.ap),o,4,o,o,o,o,o,o),o,o,0,0,55,o),m.$4$top("PER ajustado",l,k.$1(l),0)],t.p),i=p.d,h=i>0
-if(h)j.push(m.$4$top("PEG 1",i,k.$1(i),0))
-s=p.e
+$2(a,b){var s,r,q=this,p=null,o=b.b,n=new A.aU0(o),m=q.b,l=q.c,k=A.b([A.jZ(p,A.cv(p,p,B.r,p,p,new A.cM(B.KB,p,p,A.cJ(10),p,p,B.ap),p,4,p,p,p,p,p,p),p,p,0,0,75,p),n.$4$top("PER ajustado",m,l.$1(m),20)],t.p),j=q.d,i=j>0
+if(i){s=l.$1(j)
+k.push(n.$4$top("PEG 1",j,s,Math.abs(l.$1(j)-l.$1(m))<0.12?0:20))}s=q.e
 r=s>0
-if(r){q=k.$1(s)
-j.push(m.$4$top("PEG 2",s,q,Math.abs(k.$1(s)-k.$1(l))<0.12?72:0))}m=k.$1(l)
-j.push(A.jZ(o,A.cv(o,o,B.r,B.q,o,o,o,20,o,o,o,o,o,4),o,o,m*n-2,o,47,o))
-if(h){m=k.$1(i)
-j.push(A.jZ(o,A.cv(o,o,B.r,B.a5,o,o,o,18,o,o,o,o,o,2),o,o,m*n-1,o,48,o))}if(r){m=k.$1(s)
-j.push(A.jZ(o,A.cv(o,o,B.r,B.a5,o,o,o,18,o,o,o,o,o,2),o,o,m*n-1,o,48,o))}m=p.f
-l=k.$1(m)
-i=p.a
-j.push(A.jZ(o,A.cv(o,o,B.r,o,o,new A.cM(i.c,o,A.xV(B.o,2),o,o,o,B.db),o,14,o,o,o,o,o,14),o,o,l*n-7,o,50,o))
-j.push(A.jZ(o,new A.ca(new A.eR(k.$1(m)*2-1,0),o,o,A.D("Precio actual \u20ac"+B.c.t(m,2),o,o,o,o,A.cB(o,o,i.c,o,o,o,o,o,o,o,o,12,o,o,B.a6,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),o),o,o,0,0,72,o))
-return A.bN(A.jd(B.bV,j,B.k,B.bD,o),125,o)},
+if(r)k.push(n.$4$top("PEG 2",s,l.$1(s),20))
+n=l.$1(m)
+k.push(A.jZ(p,A.cv(p,p,B.r,B.q,p,p,p,20,p,p,p,p,p,4),p,p,n*o-2,p,67,p))
+if(i){n=l.$1(j)
+k.push(A.jZ(p,A.cv(p,p,B.r,B.a5,p,p,p,18,p,p,p,p,p,2),p,p,n*o-1,p,68,p))}if(r){n=l.$1(s)
+k.push(A.jZ(p,A.cv(p,p,B.r,B.a5,p,p,p,18,p,p,p,p,p,2),p,p,n*o-1,p,68,p))}n=q.f
+m=l.$1(n)
+j=q.a
+k.push(A.jZ(p,A.cv(p,p,B.r,p,p,new A.cM(j.c,p,A.xV(B.o,2),p,p,p,B.db),p,14,p,p,p,p,p,14),p,p,m*o-7,p,70,p))
+k.push(A.jZ(p,new A.ca(new A.eR(l.$1(n)*2-1,0),p,p,A.D("Precio actual \u20ac"+B.c.t(n,2),p,p,p,p,A.cB(p,p,j.c,p,p,p,p,p,p,p,p,12,p,p,B.a6,p,p,!0,p,p,p,p,p,p,p,p),p,p,p),p),p,p,0,0,92,p))
+return A.bN(A.jd(B.bV,k,B.k,B.bD,p),155,p)},
 $S:764}
 A.aU0.prototype={
 $4$top(a,b,c,d){var s=null,r=this.a,q=B.c.bA(c*r-55,0,Math.max(0,r-110))
