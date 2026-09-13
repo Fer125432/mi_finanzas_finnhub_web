@@ -116368,11 +116368,11 @@ $1(a){var s=this.a,r=s.a
 return B.c.bA((a-r)/(s.b-r),0,1)},
 $S:1}
 A.aU_.prototype={
-$2(a,b){var s,r,q=this,p=null,o=b.b,n=new A.aU0(o),m=q.b,l=q.c,k=A.b([A.jZ(p,A.cv(p,p,B.r,p,p,new A.cM(B.KB,p,p,A.cJ(10),p,p,B.ap),p,4,p,p,p,p,p,p),p,p,0,0,75,p),n.$4$top("PER ajustado",m,l.$1(m),20)],t.p),j=q.d,i=j>0
+$2(a,b){var s,r,q=this,p=null,o=b.b,n=new A.aU0(o),m=q.b,l=q.c,k=A.b([A.jZ(p,A.cv(p,p,B.r,p,p,new A.cM(B.KB,p,p,A.cJ(10),p,p,B.ap),p,4,p,p,p,p,p,p),p,p,0,0,75,p),n.$4$top("PER ajustado",m,l.$1(m),40)],t.p),j=q.d,i=j>0
 if(i){s=l.$1(j)
-k.push(n.$4$top("PEG 1",j,s,Math.abs(l.$1(j)-l.$1(m))<0.12?0:20))}s=q.e
+k.push(n.$4$top("PEG 1",j,s,Math.abs(l.$1(j)-l.$1(m))<0.12?0:40))}s=q.e
 r=s>0
-if(r)k.push(n.$4$top("PEG 2",s,l.$1(s),20))
+if(r)k.push(n.$4$top("PEG 2",s,l.$1(s),40))
 n=l.$1(m)
 k.push(A.jZ(p,A.cv(p,p,B.r,B.q,p,p,p,20,p,p,p,p,p,4),p,p,n*o-2,p,67,p))
 if(i){n=l.$1(j)
