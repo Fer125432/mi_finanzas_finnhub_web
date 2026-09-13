@@ -115166,7 +115166,7 @@ l=A.an(r==null?0:r)
 s=J.x(s[a],"precio")
 return l*A.an(s==null?0:s)/q*100},
 aug(a,b){this.D(new A.aUV(this,b,a))},
-auh(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5
+auh(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4
 for(s=this.r,r=s.length,q=0;q<s.length;s.length===r||(0,A.H)(s),++q){p=s[q]
 o=J.N(p)
 n=J.d(o.h(p,"epsModificado"),!0)
@@ -115200,11 +115200,10 @@ a=m}m=Math.pow(1.12,4)
 a0=d*a/Math.pow(1.1,4)
 a1=(a0-d*b/m)/2
 a2=Math.abs(a1)<1e-9?1:new A.aUW(l,a0,a1).$0()
-if(f)a3=1
-else{m=i<=30?1+(30-i)/15:1-(i-30)/30
-a3=Math.min(2,Math.max(0.5,m))}a4=Math.min(1.5,Math.max(0.8,1+h))
-a5=f?1:Math.min(2,Math.max(0.5,2*h*100/i))
-o.m(p,"factor",f?Math.sqrt(a4*a2):Math.pow(a3*a4*a5*a2,0.25))}},
+if(!f){m=i<=30?1+(30-i)/15:1-(i-30)/30
+Math.min(2,Math.max(0.5,m))}a3=Math.min(1.5,Math.max(0.8,1+h))
+a4=f?1:Math.min(2,Math.max(0.5,2*h*100/i))
+o.m(p,"factor",f?Math.sqrt(a3*a2):Math.pow(a3*a4*a2,0.3333333333333333))}},
 lX(a){this.auh()
 this.D(new A.aTE(this,a))},
 iY(){this.D(new A.aUQ(this))},
@@ -115263,22 +115262,22 @@ q.L$=n
 q.K$=0}p.aw()},
 avF(a){A.mN(B.cg,new A.aUY(a),t.a)},
 l7(a){return this.afr(a)},
-afr(d5){var s=0,r=A.v(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4
-var $async$l7=A.q(function(d6,d7){if(d6===1){p.push(d7)
+afr(d4){var s=0,r=A.v(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3
+var $async$l7=A.q(function(d5,d6){if(d5===1){p.push(d6)
 s=q}while(true)switch(s){case 0:k=o.r,j=0
 case 2:if(!(i=k.length,j<i)){s=4
-break}if(d5&&J.d(J.x(k[j],"tickerFijo"),!0)){s=3
+break}if(d4&&J.d(J.x(k[j],"tickerFijo"),!0)){s=3
 break}i=J.x(k[j],"ticker")
 h=J.ae(i==null?"":i)
 s=5
 return A.c(o.Af(h),$async$l7)
-case 5:n=d7
+case 5:n=d6
 s=6
 return A.c(o.Ae(h),$async$l7)
-case 6:g=d7
+case 6:g=d6
 s=7
 return A.c(o.vm(h),$async$l7)
-case 7:f=d7
+case 7:f=d6
 if(f!=null){i=J.N(f)
 J.au(k[j],"sector",i.h(f,"sector"))
 J.au(k[j],"industry",i.h(f,"industry"))
@@ -115287,7 +115286,7 @@ J.au(k[j],"marketCapCategory",o.TT(i.h(f,"marketCap")))}e=o.Vu(f)
 d=o.Kq(f)
 s=8
 return A.c(o.xt(h),$async$l7)
-case 8:c=d7
+case 8:c=d6
 s=n!=null&&g!=null?9:10
 break
 case 9:J.au(k[j],"precio",n)
@@ -115295,15 +115294,15 @@ m=A.aS(J.x(k[j],"ticker")).toUpperCase()
 q=12
 s=15
 return A.c(A.aL(),$async$l7)
-case 15:l=d7
+case 15:l=d6
 s=16
 return A.c(l.aV("Double","lastPrice_"+A.z(m),n),$async$l7)
 case 16:q=1
 s=14
 break
 case 12:q=11
-d4=p.pop()
-A.b4(d4)
+d3=p.pop()
+A.b4(d3)
 s=14
 break
 case 11:s=1
@@ -115437,21 +115436,20 @@ c5=a0}a0=Math.pow(1.12,4)
 c6=c2*c5/Math.pow(1.1,4)
 c7=(c6-c2*c4/a0)/2
 c8=Math.abs(c7)<1e-9?1:new A.aTF(b3,c6,c7).$0()
-if(c0)c9=1
-else{a0=b7<=30?1+(30-b7)/15:1-(b7-30)/30
-c9=Math.min(2,Math.max(0.5,a0))}d0=Math.min(1.5,Math.max(0.8,1+b8))
-d1=c0?1:Math.min(2,Math.max(0.5,2*b8*100/b7))
-d2=c0?Math.sqrt(d0*c8):Math.pow(c9*d0*d1*c8,0.25)
-a.m(b3,"factor",d2)
-b2+=d2}B.b.bq(k,new A.aTG())
+if(!c0){a0=b7<=30?1+(30-b7)/15:1-(b7-30)/30
+Math.min(2,Math.max(0.5,a0))}c9=Math.min(1.5,Math.max(0.8,1+b8))
+d0=c0?1:Math.min(2,Math.max(0.5,2*b8*100/b7))
+d1=c0?Math.sqrt(c9*c8):Math.pow(c9*d0*c8,0.3333333333333333)
+a.m(b3,"factor",d1)
+b2+=d1}B.b.bq(k,new A.aTG())
 k=o.as
 k===$&&A.a()
-d3=A.bA(k.a.a)
-if(d3==null){k=o.at
+d2=A.bA(k.a.a)
+if(d2==null){k=o.at
 k===$&&A.a()
-d3=k}s=17
+d2=k}s=17
 return A.c(o.oS(),$async$l7)
-case 17:o.lX(d3)
+case 17:o.lX(d2)
 o.iY()
 s=18
 return A.c(o.ht(),$async$l7)
@@ -116523,9 +116521,9 @@ $1(a){var s=J.x(a,"acciones")
 return A.an(s==null?0:s)>0},
 $S:29}
 A.aUV.prototype={
-$0(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0="pesoFormula",b1="capitalProvisional",b2="capitalAsignado",b3=this.a,b4=this.b
-b3.ay=b4
-for(b3=b3.r,s=b3.length,r=0,q=0;p=b3.length,q<p;b3.length===s||(0,A.H)(b3),++q){o=b3[q]
+$0(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9="pesoFormula",b0="capitalProvisional",b1="capitalAsignado",b2=this.a,b3=this.b
+b2.ay=b3
+for(b2=b2.r,s=b2.length,r=0,q=0;p=b2.length,q<p;b2.length===s||(0,A.H)(b2),++q){o=b2[q]
 p=J.N(o)
 n=p.h(o,"cagr")
 if(n==null)n=0
@@ -116539,7 +116537,7 @@ if(j==null)j=0
 i=J.d(p.h(o,"preRentableProyecciones"),!0)||k<=0
 if(i){h=p.h(o,"ultimoEpsProyectado")
 g=A.an(h==null?0:h)
-if(g<=0){p.m(o,b0,0)
+if(g<=0){p.m(o,a9,0)
 continue}f=g}else f=k*Math.pow(1+m,4)
 e=m*100
 if(i)d=20
@@ -116552,26 +116550,24 @@ c=h}h=Math.pow(1.12,4)
 b=f*c/Math.pow(1.1,4)
 a=(b-f*d/h)/2
 a0=Math.abs(a)<1e-9?1:new A.aUR(j,b,a).$0()
-if(i)a1=1
-else{h=l<=30?1+(30-l)/15:1-(l-30)/30
-a1=Math.min(2,Math.max(0.5,h))}a2=Math.min(1.5,Math.max(0.8,1+m))
-a3=i?1:Math.min(2,Math.max(0.5,2*m*100/l))
-a4=i?Math.sqrt(a2*a0):Math.pow(a1*a2*a3*a0,0.25)
-p.m(o,b0,a4)
-r+=a4}for(s=this.c,q=0;q<b3.length;b3.length===p||(0,A.H)(b3),++q){o=b3[q]
+a1=Math.min(1.5,Math.max(0.8,1+m))
+a2=i?1:Math.min(2,Math.max(0.5,2*m*100/l))
+a3=i?Math.sqrt(a1*a0):Math.pow(a1*a2*a0,0.3333333333333333)
+p.m(o,a9,a3)
+r+=a3}for(s=this.c,q=0;q<b2.length;b2.length===p||(0,A.H)(b2),++q){o=b2[q]
 h=J.N(o)
-a4=h.h(o,b0)
-h.m(o,b1,s*J.tN(a4==null?1:a4,r))}p=A.G(b3).i("aa<1>")
+a3=h.h(o,a9)
+h.m(o,b0,s*J.tN(a3==null?1:a3,r))}p=A.G(b2).i("aa<1>")
 h=p.i("A.E")
-a5=A.o(new A.aa(b3,new A.aUS(b4),p),h)
-a6=A.o(new A.aa(b3,new A.aUT(),p),h)
-a7=a5.length===0?a6:a5
-a8=B.b.ef(a7,0,new A.aUU())
-for(b4=b3.length,p=a8>0,q=0;q<b3.length;b3.length===b4||(0,A.H)(b3),++q){o=b3[q]
+a4=A.o(new A.aa(b2,new A.aUS(b3),p),h)
+a5=A.o(new A.aa(b2,new A.aUT(),p),h)
+a6=a4.length===0?a5:a4
+a7=B.b.ef(a6,0,new A.aUU())
+for(b3=b2.length,p=a7>0,q=0;q<b2.length;b2.length===b3||(0,A.H)(b2),++q){o=b2[q]
 h=J.N(o)
-if(B.b.n(a7,o)){a9=h.h(o,b1)
-if(a9==null)a9=0
-h.m(o,b2,B.c.bA(p?s*J.tN(a9,a8):0,0,1/0))}else h.m(o,b2,0)}},
+if(B.b.n(a6,o)){a8=h.h(o,b0)
+if(a8==null)a8=0
+h.m(o,b1,B.c.bA(p?s*J.tN(a8,a7):0,0,1/0))}else h.m(o,b1,0)}},
 $S:0}
 A.aUR.prototype={
 $0(){return B.c.bA(0.5+1.5*((1+99*(1/(1+Math.exp((this.a-this.b)/this.c/2))))/100),0.5,2)},
