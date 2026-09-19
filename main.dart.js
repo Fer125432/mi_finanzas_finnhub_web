@@ -115301,7 +115301,7 @@ a2=Math.abs(a1)<1e-9?1:new A.aV0(l,a0,a1).$0()
 if(!f){m=i<=30?1+(30-i)/15:1-(i-30)/30
 Math.min(2,Math.max(0.5,m))}a3=Math.min(1.5,Math.max(0.8,1+h))
 a4=f?1:Math.min(2,Math.max(0.5,2*h*100/i))
-o.m(p,"factor",f?Math.sqrt(a3*a2):Math.pow(a3*a4*a2,0.3333333333333333))}},
+o.m(p,"factor",f?a3*a2:a3*a4*a2)}},
 l7(a){this.auk()
 this.D(new A.aTI(this,a))},
 iu(){this.D(new A.aUV(this))},
@@ -115538,7 +115538,7 @@ d5=Math.abs(d4)<1e-9?1:new A.aTJ(c0,d3,d4).$0()
 if(!c7){h=c4<=30?1+(30-c4)/15:1-(c4-30)/30
 Math.min(2,Math.max(0.5,h))}d6=Math.min(1.5,Math.max(0.8,1+c5))
 d7=c7?1:Math.min(2,Math.max(0.5,2*c5*100/c4))
-d8=c7?Math.sqrt(d6*d5):Math.pow(d6*d7*d5,0.3333333333333333)
+d8=c7?d6*d5:d6*d7*d5
 i.m(c0,"factor",d8)
 b9+=d8}B.b.bm(k,new A.aTK())
 k=o.as
@@ -116606,7 +116606,7 @@ a=(b-f*d/h)/2
 a0=Math.abs(a)<1e-9?1:new A.aUW(j,b,a).$0()
 a1=Math.min(1.5,Math.max(0.8,1+m))
 a2=i?1:Math.min(2,Math.max(0.5,2*m*100/l))
-a3=i?Math.sqrt(a1*a0):Math.pow(a1*a2*a0,0.3333333333333333)
+a3=i?a1*a0:a1*a2*a0
 p.m(o,a9,a3)
 r+=a3}for(s=this.c,q=0;q<b2.length;b2.length===p||(0,A.H)(b2),++q){o=b2[q]
 h=J.M(o)
