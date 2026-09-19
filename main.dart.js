@@ -107952,50 +107952,55 @@ s=2
 return A.c(A.xD(new A.aQO(q,new A.aQP(A.b([new A.FM(A.dK("[0-9\\-,\\.]",!1),!0,"")],t.VS)),b.a+1,n,m,l,k,j,i,h,g,f,e,d,c,p,new A.aQN(),a),a,!0,!0,!0,t.z),$async$DT)
 case 2:return A.t(null,r)}})
 return A.u($async$DT,r)},
-au3(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5=this,a6=null,a7=a5.k4
-a7===$&&A.a()
-s=a5.qz(a7).at
-a7=s.a
-r=a5.k2
+au3(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9=this,b0=null,b1=a9.k4
+b1===$&&A.a()
+s=a9.qz(b1).at
+b1=s.a
+r=a9.k2
 r===$&&A.a()
 q=r.Q
-p=q!=null&&q.b.length!==0?B.b.gV(q.b).a:a6
-o=p==null?a6:p+1
+p=q!=null&&q.b.length!==0?B.b.gV(q.b).a:b0
+o=p==null?b0:p+1
 n=s.h(0,"revenue")
 m=s.h(0,"netIncome")
 l=s.h(0,"eps")
 q=r.Q
-k=q!=null&&q.b.length!==0?B.b.gV(q.b):a6
-q=a5.k4
+k=q!=null&&q.b.length!==0?B.b.gV(q.b):b0
+q=a9.k4
 j=k==null
-i=a5.fE(q,j?a6:k.b)
-h=a5.fE(q,j?a6:k.d)
-g=a5.fE(q,j?a6:k.e)
-f=i==null?a6:i/1e9
-e=h==null?a6:h/1e9
+i=a9.fE(q,j?b0:k.b)
+h=a9.fE(q,j?b0:k.d)
+g=a9.fE(q,j?b0:k.e)
+f=i==null?b0:i/1e9
+e=h==null?b0:h/1e9
 q=new A.aOo()
 d=n!=null||m!=null||l!=null
-j=a5.ok
+j=a9.ok
 if(j==null)c="N/D"
 else{b=j>=0?"+":""
 j=B.c.t(j,2)
-a=a5.ok
+a=a9.ok
 a.toString
 a=a<0?" \ud83d\udd34":""
-if(a5.p3)a0=" \ud83d\udfe2 Recuperaci\xf3n"
-else a0=a5.p2?" \ud83d\udfe2 Reaceleraci\xf3n":""
+if(a9.p3)a0=" \ud83d\udfe2 Recuperaci\xf3n"
+else a0=a9.p2?" \ud83d\udfe2 Reaceleraci\xf3n":""
 c=b+j+" pp"+a+a0}r=r.Q
-a1=r==null?a6:a5.axE(r)
-a2=a1==null?"":" ("+new A.k(a1,new A.aOp(),A.G(a1).i("k<1,f>")).aU(0," \u2192 ")+" pp)"
-a3=a5.p1?"Desaceleraci\xf3n IT"+a2:"Aceleraci\xf3n IT"+a2
-if(d)a4="Revenue: "+A.z(q.$1(n))+" \u2022 Net: "+A.z(q.$1(m))+" \u2022 EPS: "+A.z(new A.aOn().$1(l))+" \u2022 Aceleraci\xf3n IA: "+c+" \u2022 "+a3
-else a4=a5.ok!=null?"Aceleraci\xf3n IA: "+c+" \u2022 "+a3:"Pulsa para introducir datos trimestrales"
+a1=r==null?b0:a9.axE(r)
+if(a1!=null){a2=a1[0]
+a3=a1[1]
+a4=a1[2]
+a5=" ("+new A.k(a1,new A.aOp(),A.G(a1).i("k<1,f>")).aU(0," \u2192 ")+" pp)"
+if(a2<a3&&a3<a4)a6="Aceleraci\xf3n IT"+a5
+else a6=a2>a3&&a3>a4?"Desaceleraci\xf3n IT"+a5:""}else a6=""
+a7=a6.length===0?"":" \u2022 "+a6
+if(d)a8="Revenue: "+A.z(q.$1(n))+" \u2022 Net: "+A.z(q.$1(m))+" \u2022 EPS: "+A.z(new A.aOn().$1(l))+" \u2022 Aceleraci\xf3n IA: "+c+a7
+else a8=a9.ok!=null?"Aceleraci\xf3n IA: "+c+a7:"Pulsa para introducir datos trimestrales"
 r=t.p
-q=A.b([B.QM,B.br,A.bI(A.aP(A.b([A.D(o!=null?"Trimestrales "+A.z(o):"Trimestrales",a6,a6,a6,a6,B.aC,a6,a6,a6),B.a2m,A.D(a4,a6,a6,a6,a6,a6,a6,a6,a6)],r),B.R,a6,B.h,B.m),1)],r)
-if(a7!==0)q.push(A.aM(A.b([a5.Ls("Rev",n,f),a5.Ls("Net",m,e),a5.Ls("EPS",l,g)],r),B.n,B.h,B.O,0,a6))
+q=A.b([B.QM,B.br,A.bI(A.aP(A.b([A.D(o!=null?"Trimestrales "+A.z(o):"Trimestrales",b0,b0,b0,b0,B.aC,b0,b0,b0),B.a2m,A.D(a8,b0,b0,b0,b0,b0,b0,b0,b0)],r),B.R,b0,B.h,B.m),1)],r)
+if(b1!==0)q.push(A.aM(A.b([a9.Ls("Rev",n,f),a9.Ls("Net",m,e),a9.Ls("EPS",l,g)],r),B.n,B.h,B.O,0,b0))
 q.push(B.bR)
 q.push(B.QP)
-return A.iM(A.hu(!1,a6,!0,new A.ab(B.jm,A.aM(q,B.n,B.h,B.m,0,a6),a6),a6,!0,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,new A.aOq(a5),a6,a6,a6,a6,a6,a6,a6),a6,B.jm,a6)},
+return A.iM(A.hu(!1,b0,!0,new A.ab(B.jm,A.aM(q,B.n,B.h,B.m,0,b0),b0),b0,!0,b0,b0,b0,b0,b0,b0,b0,b0,b0,b0,b0,new A.aOq(a9),b0,b0,b0,b0,b0,b0,b0),b0,B.jm,b0)},
 M(a){var s,r,q=this,p=null,o=q.k2
 o===$&&A.a()
 s=q.a.e?2:0
@@ -117553,7 +117558,7 @@ m=A.b([A.D("Rentabilidad futura 4 a\xf1os: "+l+B.c.t(m,1)+"%",p,p,p,p,p,p,p,p)],
 if(q.e){l=q.f
 m.push(A.D(l!=null?"Score Screener: "+B.c.t(l,1):"Score Screener: N/D",p,p,p,p,p,p,p,p))}m.push(A.D("Peso en cartera: "+B.c.t(q.r,1)+"%",p,p,p,p,p,p,p,p))
 m.push(B.a0)
-m.push(A.D("Aceleraci\xf3n IT: "+(q.w?"Desaceleraci\xf3n IT":"Aceleraci\xf3n IT"),p,p,p,p,p,p,p,p))
+m.push(A.D(q.w?"Desaceleraci\xf3n IT: S\xed":"Aceleraci\xf3n IT: S\xed",p,p,p,p,p,p,p,p))
 m.push(A.D("Deterioro: "+(q.x?"S\xed \ud83d\udd34":o),p,p,p,p,p,p,p,p))
 m.push(A.D("Contracci\xf3n: "+(q.y?"S\xed \ud83d\udd34\ud83d\udd34":o),p,p,p,p,p,p,p,p))
 m.push(A.D("Reaceleraci\xf3n: "+(q.z?"S\xed \ud83d\udfe2":o),p,p,p,p,p,p,p,p))
