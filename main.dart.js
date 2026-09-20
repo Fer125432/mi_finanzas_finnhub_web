@@ -114979,7 +114979,7 @@ m.m(a,"decisionRequiereRecuperacion",l===!0)
 case 1:return A.t(q,r)}})
 return A.u($async$wI,r)},
 Ks(a){var s=J.x(a,"rentabilidadProyecciones")
-return Math.max(0.5,1+2*(A.an(s==null?0:s)/100))},
+return Math.max(0.5,1+3*(A.an(s==null?0:s)/100))},
 agZ(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=null,c=J.M(a),b=A.aZ(c.h(a,"rentabilidadProyecciones"))
 if(b==null)b=d
 if(b!=null&&isFinite(b))return b
