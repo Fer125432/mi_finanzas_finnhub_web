@@ -115267,7 +115267,7 @@ l=A.ai(r==null?0:r)
 s=J.x(s[a],"precio")
 return l*A.ai(s==null?0:s)/q*100},
 auk(a,b){this.D(new A.aV_(this,b,a))},
-aul(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0="ultimoEpsProyectado",a1="cagr"
+aul(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1="ultimoEpsProyectado",a2="cagr"
 for(s=this.w,r=s.length,q=0;q<s.length;s.length===r||(0,A.H)(s),++q){p=s[q]
 o=J.M(p)
 n=J.d(o.h(p,"epsModificado"),!0)
@@ -115284,21 +115284,22 @@ i=m}if(!n)o.m(p,"per",i)
 m=o.h(p,"eps")
 h=A.ai(m==null?0:m)
 g=J.d(o.h(p,"preRentableProyecciones"),!0)||h<=0
-m=o.h(p,a0)
+m=o.h(p,a1)
 f=A.ai(m==null?0:m)
-if(g)if(h>0){m=o.h(p,a1)
+if(g)if(h>0){m=o.h(p,a2)
 e=A.ai(m==null?0:m)/100}else if(k>0&&f>0)e=Math.pow(f/k,0.25)-1
 else{m=o.h(p,"preRevenueCagr")
 d=A.ai(m==null?0:m)
-e=d}else{m=o.h(p,a1)
-e=A.ai(m==null?0:m)/100}if(g)o.m(p,a1,e*100)
-if(g){m=o.h(p,a0)
+e=d}else{m=o.h(p,a2)
+e=A.ai(m==null?0:m)/100}if(g)o.m(p,a2,e*100)
+if(g){m=o.h(p,a1)
 if(A.ai(m==null?0:m)<=0){o.m(p,"factor",0)
 continue}}else Math.pow(1+e,4)
 c=this.Ks(p)
 b=Math.min(1.5,Math.max(0.8,1+e))
-a=g?1:Math.min(2,Math.max(0.5,2*e*100/i))
-o.m(p,"factor",g?b*c:b*a*c)}},
+a=g&&k<=0
+a0=a?1:Math.min(2,Math.max(0.5,2*e*100/i))
+o.m(p,"factor",a?b*c*0.6666666666666666:b*a0*c)}},
 l7(a){this.aul()
 this.D(new A.aTK(this,a))},
 iu(){this.D(new A.aUW(this))},
