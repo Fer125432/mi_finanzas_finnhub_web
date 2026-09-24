@@ -116445,26 +116445,28 @@ $1(a){var s=this.a,r=s.a
 return B.c.bG((a-r)/(s.b-r),0,1)},
 $S:1}
 A.aU3.prototype={
-$2(a,b){var s,r,q,p,o,n,m=this,l=null,k=b.b,j=new A.aU4(k),i=m.b,h=i>0
-if(h){s=m.c
-r=Math.abs(s.$1(i)-s.$1(m.d))*k<115}else r=!1
-s=m.d
-q=m.c
-p=A.b([A.jZ(l,A.cs(l,l,B.r,l,l,new A.cK(B.KD,l,l,A.cH(10),l,l,B.an),l,4,l,l,l,l,l,l),l,l,0,0,55,l),j.$4$top("PER ajustado",s,q.$1(s),0)],t.p)
-if(h){o=q.$1(i)
-p.push(j.$4$top("PEG 1",i,o,r?-35:0))}o=m.e
-n=o>0
-if(n)p.push(j.$4$top("PEG 2",o,q.$1(o),0))
-j=q.$1(s)
-p.push(A.jZ(l,A.cs(l,l,B.r,B.q,l,l,l,20,l,l,l,l,l,4),l,l,j*k-2,l,47,l))
-if(h){j=q.$1(i)
-p.push(A.jZ(l,A.cs(l,l,B.r,B.a6,l,l,l,18,l,l,l,l,l,2),l,l,j*k-1,l,48,l))}if(n){j=q.$1(o)
-p.push(A.jZ(l,A.cs(l,l,B.r,B.a6,l,l,l,18,l,l,l,l,l,2),l,l,j*k-1,l,48,l))}j=m.f
-i=q.$1(j)
-h=m.a
-p.push(A.jZ(l,A.cs(l,l,B.r,l,l,new A.cK(h.c,l,A.xU(B.o,2),l,l,l,B.db),l,14,l,l,l,l,l,14),l,l,i*k-7,l,50,l))
-p.push(A.jZ(l,new A.ca(new A.eR(q.$1(j)*2-1,0),l,l,A.D("Precio actual \u20ac"+B.c.t(j,2),l,l,l,l,A.cz(l,l,h.c,l,l,l,l,l,l,l,l,12,l,l,B.a0,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),l),l,l,0,0,72,l))
-return A.bN(A.je(B.bV,p,B.r,B.bD,l),125,l)},
+$2(a,b){var s,r,q,p,o,n,m,l,k=this,j=null,i=b.b,h=new A.aU4(i),g=k.b,f=g>0
+if(f){s=k.c
+r=Math.abs(s.$1(g)-s.$1(k.d))*i<115}else r=!1
+s=k.e
+q=s>0
+if(q){p=k.c
+o=Math.abs(p.$1(s)-p.$1(k.d))*i<115}else o=!1
+p=k.d
+n=k.c
+m=A.b([A.jZ(j,A.cs(j,j,B.r,j,j,new A.cK(B.KD,j,j,A.cH(10),j,j,B.an),j,4,j,j,j,j,j,j),j,j,0,0,55,j),h.$4$top("PER ajustado",p,n.$1(p),0)],t.p)
+if(f){l=n.$1(g)
+m.push(h.$4$top("PEG 1",g,l,r?-35:0))}if(q){l=n.$1(s)
+m.push(h.$4$top("PEG 2",s,l,o?-35:0))}h=n.$1(p)
+m.push(A.jZ(j,A.cs(j,j,B.r,B.q,j,j,j,20,j,j,j,j,j,4),j,j,h*i-2,j,47,j))
+if(f){h=n.$1(g)
+m.push(A.jZ(j,A.cs(j,j,B.r,B.a6,j,j,j,18,j,j,j,j,j,2),j,j,h*i-1,j,48,j))}if(q){h=n.$1(s)
+m.push(A.jZ(j,A.cs(j,j,B.r,B.a6,j,j,j,18,j,j,j,j,j,2),j,j,h*i-1,j,48,j))}h=k.f
+g=n.$1(h)
+f=k.a
+m.push(A.jZ(j,A.cs(j,j,B.r,j,j,new A.cK(f.c,j,A.xU(B.o,2),j,j,j,B.db),j,14,j,j,j,j,j,14),j,j,g*i-7,j,50,j))
+m.push(A.jZ(j,new A.ca(new A.eR(n.$1(h)*2-1,0),j,j,A.D("Precio actual \u20ac"+B.c.t(h,2),j,j,j,j,A.cz(j,j,f.c,j,j,j,j,j,j,j,j,12,j,j,B.a0,j,j,!0,j,j,j,j,j,j,j,j),j,j,j),j),j,j,0,0,72,j))
+return A.bN(A.je(B.bV,m,B.r,B.bD,j),125,j)},
 $S:764}
 A.aU4.prototype={
 $5$dx$top(a,b,c,d,e){var s=null,r=this.a,q=B.c.bG(c*r-55+d,0,Math.max(0,r-110))
