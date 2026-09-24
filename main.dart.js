@@ -122141,8 +122141,8 @@ if(a5!=null)if(isFinite(a5)){if(a5>0)if(a6!=null)if(isFinite(a6))if(a6>0){f1=b
 f2=A.G(f1)
 f7=new A.it(f1,1,null,f2.i("it<1>"))
 f7.wt(f1,1,null,f2.c)
-f7=f7.rT(0,Math.max(0,J.b0(b)-2)).dK(0,new A.asY())
-f1=f7}else f1=f6
+if(f7.rT(0,Math.max(0,J.b0(b)-2)).dK(0,new A.asY()))f1=a1==null||a1<=0
+else f1=f6}else f1=f6
 else f1=f6
 else f1=f6
 else f1=f6
