@@ -111441,37 +111441,38 @@ if(e<2)return!1
 f=r[e-2]
 g=r[e-1]
 return f>=0&&g<0},
-E7(a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5=a6.d
-if(a5==null)a5=[]
-a5=A.u(a5,t.z)
-if(a5.length<3)return!1
-B.b.bv(a5,new A.aR9())
+E7(a7){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6=a7.d
+if(a6==null)a6=[]
+a6=A.u(a6,t.z)
+if(a6.length<3)return!1
+B.b.bv(a6,new A.aR9())
 s=new A.aRa()
 r=A.b([],t.n)
-for(q=a5.length,p=0;p<a5.length;a5.length===q||(0,A.G)(a5),++p){o=a5[p]
+for(q=a6.length,p=0;p<a6.length;a6.length===q||(0,A.G)(a6),++p){o=a6[p]
 for(n=1;n<=4;++n){m=s.$2(o,n)
 if(m==null||!isFinite(m))continue
-for(l=a5.length,k=null,j=null,i=0;i<a5.length;a5.length===l||(0,A.G)(a5),++i){h=a5[i]
+for(l=a6.length,k=null,j=null,i=0;i<a6.length;a6.length===l||(0,A.G)(a6),++i){h=a6[i]
 if(h.gcF()===o.gcF()-1)k=h
 if(h.gcF()===o.gcF()-2)j=h}if(k==null||j==null)continue
 g=s.$2(k,n)
 f=s.$2(j,n)
 if(g==null||f==null||!isFinite(g)||!isFinite(f)||g===0||f===0)continue
 e=(m-g)/g*100-(g-f)/f*100
-if(isFinite(e))r.push(e)}}a5=r.length
-if(a5<3)return!1
-d=r[a5-3]
-c=r[a5-2]
-b=r[a5-1]
+if(isFinite(e))r.push(e)}}a6=r.length
+if(a6<3)return!1
+d=r[a6-3]
+c=r[a6-2]
+b=r[a6-1]
 a=d<0&&c>d&&b>c
 a0=c<0&&b>d&&b>c
 a1=b-d
 a2=a1>=3&&a1/Math.abs(d)*100>=25
 a3=b-c
 a4=a3>=3&&a3/Math.abs(c)*100>=25
-if(!(a&&a2))a5=a0&&a4
-else a5=!0
-return a5},
+a5=c>0&&b>c
+if(!(a&&a2))a6=a0&&a4||a5
+else a6=!0
+return a6},
 jg(a,b,c,d,e,f,g){return this.aom(a,b,c,d,e,f,g)},
 aom(a,b,c,a0,a1,a2,a3){var s=0,r=A.r(t.H),q,p,o,n,m,l,k,j,i,h,g,f,e,d
 var $async$jg=A.n(function(a4,a5){if(a4===1)return A.o(a5,r)
@@ -111507,8 +111508,8 @@ return A.c(g.hl("decision_contraccion_v1_"+f,a0),$async$jg)
 case 9:o="decision_requiere_recuperacion_v1_"+f
 d=A.cM(q.h(e,d+o))
 i=d===!0
-if(k)h=!0
-else h=j?!1:i
+if(j)h=!1
+else h=k?!0:i
 s=10
 return A.c(g.hl(o,h),$async$jg)
 case 10:return A.p(null,r)}})
