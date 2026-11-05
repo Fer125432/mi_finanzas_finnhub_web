@@ -111735,46 +111735,45 @@ if(!(a&&a2))a6=a0&&a4||a5
 else a6=!0
 return a6},
 jh(a,b,c,d,e,f,g,h){return this.aoB(a,b,c,d,e,f,g,h)},
-aoB(a0,a1,a2,a3,a4,a5,a6,a7){var s=0,r=A.r(t.H),q=this,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a
-var $async$jh=A.n(function(a8,a9){if(a8===1)return A.o(a9,r)
+aoB(a,b,a0,a1,a2,a3,a4,a5){var s=0,r=A.r(t.H),q=this,p,o,n,m,l,k,j,i,h,g,f,e,d,c
+var $async$jh=A.n(function(a6,a7){if(a6===1)return A.o(a7,r)
 while(true)switch(s){case 0:s=2
 return A.c(A.av(),$async$jh)
-case 2:d=a9
-c=a0.toUpperCase()
-b=d.a
-a="user."+d.b+"."
-b=b.a
-p=J.L(b)
-o=A.by(p.h(b,a+("screener_crecimiento_actual_ventas_v1_"+c)))
-n=a1!=null
-m=n&&a1>0&&o!=null&&o<0
-l=n&&o!=null?o-a1:null
-k=n&&l!=null&&l>0?-a1/l*100:null
-j=n&&a1<=-3&&k!=null&&k>=25
-i=n&&a1<0&&!j&&q.MI(a7)
-h=j||i
-g=a5||a6
+case 2:f=a7
+e=a.toUpperCase()
+d=f.a
+c="user."+f.b+"."
+d=d.a
+p=J.L(d)
+o=A.by(p.h(d,c+("screener_crecimiento_actual_ventas_v1_"+e)))
+n=b!=null
+m=n&&b>0&&o!=null&&o<0
+l=n&&o!=null?o-b:null
+k=n&&l!=null&&l>0?-b/l*100:null
+j=n&&b<=-3&&k!=null&&k>=25
+if(n&&b<0&&!j)q.MI(a5)
+i=a3||a4
 s=3
-return A.c(d.h6("decision_aceleracion_it_v1_"+c,a2),$async$jh)
+return A.c(f.h6("decision_aceleracion_it_v1_"+e,a0),$async$jh)
 case 3:s=4
-return A.c(d.h6("decision_desaceleracion_v1_"+c,a4),$async$jh)
+return A.c(f.h6("decision_desaceleracion_v1_"+e,a2),$async$jh)
 case 4:s=5
-return A.c(d.h6("decision_deterioro_v1_"+c,h),$async$jh)
+return A.c(f.h6("decision_deterioro_v1_"+e,j),$async$jh)
 case 5:s=6
-return A.c(d.h6("decision_aceleracion_en_contraccion_v1_"+c,m),$async$jh)
+return A.c(f.h6("decision_aceleracion_en_contraccion_v1_"+e,m),$async$jh)
 case 6:s=7
-return A.c(d.h6("decision_reaceleracion_v1_"+c,a5),$async$jh)
+return A.c(f.h6("decision_reaceleracion_v1_"+e,a3),$async$jh)
 case 7:s=8
-return A.c(d.h6("decision_recuperacion_v1_"+c,a6),$async$jh)
+return A.c(f.h6("decision_recuperacion_v1_"+e,a4),$async$jh)
 case 8:s=9
-return A.c(d.h6("decision_contraccion_v1_"+c,a3),$async$jh)
-case 9:n="decision_requiere_recuperacion_v1_"+c
-a=A.cN(p.h(b,a+n))
-f=a===!0
-if(g)e=!1
-else e=h?!0:f
+return A.c(f.h6("decision_contraccion_v1_"+e,a1),$async$jh)
+case 9:n="decision_requiere_recuperacion_v1_"+e
+c=A.cN(p.h(d,c+n))
+h=c===!0
+if(i)g=!1
+else g=j||a2||a1?!0:h
 s=10
-return A.c(d.h6(n,e),$async$jh)
+return A.c(f.h6(n,g),$async$jh)
 case 10:return A.p(null,r)}})
 return A.q($async$jh,r)},
 qY(){var s=0,r=A.r(t.H),q=this,p,o,n
