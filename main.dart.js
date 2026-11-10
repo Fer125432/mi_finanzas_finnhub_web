@@ -129945,12 +129945,12 @@ break
 case 5:case 1:return A.q(q,r)}})
 return A.r($async$vf,r)},
 rf(a){return this.axS(a)},
-axS(b3){var s=0,r=A.t(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2
-var $async$rf=A.o(function(b5,b6){if(b5===1){o.push(b6)
+axS(a9){var s=0,r=A.t(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8
+var $async$rf=A.o(function(b1,b2){if(b1===1){o.push(b2)
 s=p}while(true)switch(s){case 0:if(!n.gp8()){s=1
 break}s=3
 return A.c(A.nx(),$async$rf)
-case 3:i=b6
+case 3:i=b2
 m=A.al(J.m(i.a,"screener_historico_ranking_v2"))
 h=n.r
 h.W(0)
@@ -129961,7 +129961,7 @@ k=d
 d=k.a
 c=J.c6(f.a(k.b),new A.b6Z(),e)
 c=A.v(c,c.$ti.i("R.E"))
-h.l(0,d,c)}}catch(b4){}g=J.hl(b3,new A.b7_(n))
+h.l(0,d,c)}}catch(b0){}g=J.hl(a9,new A.b7_(n))
 a=A.v(g,g.$ti.i("C.E"))
 B.b.bl(a,new A.b70(n))
 a0=new A.c7(Date.now(),0,!1).ma()
@@ -129974,13 +129974,8 @@ d.toString
 a6=h.c2(0,e.toUpperCase(),new A.b71())
 e=J.L(a6)
 a7=e.gai(a6)?null:e.gT(a6)
-c=a7==null
-a8=A.aB(c?null:J.m(a7,"posicion"))
-a9=a8==null?null:B.c.bI(a8)
-b0=A.aB(c?null:J.m(a7,"score"))
-if(b0==null)b0=null
-b1=b0==null||Math.abs(d-b0)>=0.05
-if(a9===a5&&!b1)continue
+c=A.aB(a7==null?null:J.m(a7,"posicion"))
+if((c==null?null:B.c.bI(c))===a5)continue
 e.G(a6,A.W(["fecha",a0,"posicion",a5,"total",a1,"score",A.y9(B.c.q(d,2))],g,f))
 a2=!0}s=a2?4:5
 break
@@ -129993,8 +129988,8 @@ case 11:p=2
 s=10
 break
 case 8:p=7
-b2=o.pop()
-j=A.aA(b2)
+a8=o.pop()
+j=A.aA(a8)
 A.Em().$1("Error sincronizando hist\xf3rico: "+A.B(j))
 s=10
 break
